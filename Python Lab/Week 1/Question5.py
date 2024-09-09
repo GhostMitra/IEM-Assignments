@@ -1,0 +1,1 @@
+## Write a Python program to create a list of 20 values and find out Mean, Median and Mode of list of numbers. Count the number of seperators used.
