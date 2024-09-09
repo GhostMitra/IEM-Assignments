@@ -1,0 +1,19 @@
+def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+
+def krishnamurthy(n):
+    temp = n;
+    sum_of_factorial_digits = 0
+    while temp>0:
+        sum_of_factorial_digits += factorial(temp%10)
+        temp = temp//10
+    return n==sum_of_factorial_digits
+    
+number = int(input("Enter a number: "))
+if(krishnamurthy(number)):
+    print(f"{number} is a krishnamurthy number")
+else:
+    print(f"{number} is not a krishnamurthy number")
