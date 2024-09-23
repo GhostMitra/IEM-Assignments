@@ -1,0 +1,12 @@
+close all;
+x = -2*pi:0.0000001:2*pi;
+y = sin(x);
+z = cos(x);
+plot(x,y,'r-');
+grid on;
+hold on;
+plot(x,z,'b-');
+xlabel('x');
+ylabel('y');
+legend('sin(x)','cos(x)');
+title('Plotting sin(x) and cos(x) graph');

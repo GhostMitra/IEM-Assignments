@@ -1,0 +1,15 @@
+close all;
+x = -2:0.0000001:2;
+y1 = exp(x);
+y2 = abs(x);
+y3 = x.^2;
+plot(x,y1,'r-');
+grid on;
+hold on;
+plot(x,y2,'b-');
+hold on;
+plot(x,y3,'g-');
+xlabel('x');
+ylabel('y');
+legend('exp(x)','abs(x)','x^2');
+title('Plotting exp(x), abs(x), x^2 graph');
