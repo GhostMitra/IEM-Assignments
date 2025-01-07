@@ -8,7 +8,6 @@
 // 5. Return 0 to indicate successful execution of the program.
 
 #include<stdio.h>   // Header file for standard input/output functions
-#include<conio.h>   // Header file for console input/output functions (used for getch())
 
 // Main function - entry point of the program
 int main()

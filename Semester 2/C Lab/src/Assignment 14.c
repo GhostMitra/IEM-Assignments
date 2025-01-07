@@ -12,7 +12,6 @@
 
 #include<stdio.h>   // Header file for standard input/output functions
 #include<math.h>    // Header file for mathematical functions like pow()
-#include<conio.h>   // Header file for console input/output functions (used for getch())
 
 int main() 
 {

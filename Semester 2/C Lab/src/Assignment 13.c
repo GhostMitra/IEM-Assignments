@@ -11,7 +11,6 @@
 
 #include<stdio.h>   // Header file for standard input/output functions
 #include<math.h>    // Header file for mathematical functions like sqrt() and pow()
-#include<conio.h>   // Header file for console input/output functions (used for getch())
 
 // Function to calculate the distance between two points using the distance formula
 // Parameters: 

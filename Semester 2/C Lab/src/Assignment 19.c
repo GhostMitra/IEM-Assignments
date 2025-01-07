@@ -9,7 +9,6 @@
 // 6. End.
 
 #include<stdio.h>   // Header file for standard input/output functions
-#include<conio.h>   // Header file for console input/output functions (used for getch())
 
 long unsigned sum = 0;  // Variable to store the sum of digits
 

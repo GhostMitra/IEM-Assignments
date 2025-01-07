@@ -6,8 +6,7 @@
 // 3. Use getch() to pause the screen and wait for a key press from the user.
 // 4. Return 0 to indicate successful execution of the program.
 
-#include<stdio.h>   // Header file for standard input/output functions
-#include<conio.h>   // Header file for console input/output functions (used for getch())
+#include<stdio.h>   // Header file for standard input/output functionsj
 
 // Main function - entry point of the program
 int main()

@@ -11,7 +11,6 @@
 // 6. End.
 
 #include<stdio.h>   // Header file for standard input/output functions
-#include<conio.h>   // Header file for console input/output functions (used for getch())
 #include<math.h>    // Header file for mathematical functions like sqrt()
 
 // Function to calculate the area of a triangle using Heron's formula
