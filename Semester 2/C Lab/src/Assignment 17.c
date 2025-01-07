@@ -96,7 +96,6 @@ int main()
     // Calculate and print the grade based on total marks
     printf("The grade of the student is: %c\n", grade(totalMark, fullMark));
 
-    getchar();  // Pause the output screen before exiting
     return 0;  // Indicate successful execution
 }
 

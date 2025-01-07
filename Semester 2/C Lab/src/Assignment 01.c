@@ -12,7 +12,6 @@
 int main()
 {
     printf("Hello World \n");  // Prints "Hello World" followed by a newline character
-    getchar();                   // Waits for a key press (used to pause the output screen)
     return 0;                  // Returns 0 to indicate successful execution
 }
 

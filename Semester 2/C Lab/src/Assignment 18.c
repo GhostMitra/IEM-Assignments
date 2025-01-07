@@ -35,7 +35,6 @@ int main()
     // Call the reverse function and display the reversed number
     printf("Reversed number is %lu.\n", reverse(num));
 
-    getchar();  // Pause the output screen before exiting
     return 0;  // Indicate successful execution
 }
 

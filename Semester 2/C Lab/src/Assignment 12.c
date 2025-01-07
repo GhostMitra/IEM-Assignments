@@ -40,7 +40,6 @@ int main()
     // Print the calculated area of the triangle
     printf("The area of the triangle is %lf sq. units", area(a, b, c));
 
-    getchar(); // Pause the output screen before exiting
     return 0; // Indicate successful execution
 }
 

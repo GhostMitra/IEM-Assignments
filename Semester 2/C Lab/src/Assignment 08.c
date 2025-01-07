@@ -28,7 +28,6 @@ int main()
     // Display the modified number after inserting 0.1 as the first digit after the decimal
     printf("The number after inserting 0.1 as the first digit after the decimal is: %lf", number);
 
-    getchar();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
 

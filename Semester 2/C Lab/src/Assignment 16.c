@@ -22,7 +22,6 @@ int main()
     // Check if the year is a leap year and display the result
     printf("The Year %ld is %s ", year, (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) ? "Leap Year." : "not Leap Year.");
 
-    getchar();  // Pause the output screen before exiting
     return 0; // Indicate successful execution
 }
 

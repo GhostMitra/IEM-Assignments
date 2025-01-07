@@ -35,7 +35,6 @@ int main()
     // Call the digitsSum function and display the sum of digits
     printf("Sum of digits of the number %lu is %lu.\n", num, digitsSum(num));
 
-    getchar();  // Pause the output screen before exiting
     return 0;  // Indicate successful execution
 }
 

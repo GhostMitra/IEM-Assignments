@@ -50,7 +50,6 @@ int main()
         printf("No angle is a right angle");
     }
 
-    getchar();  // Pause the output screen before exiting
     return 0; // Indicate successful execution
 }
 

@@ -97,7 +97,6 @@ int main()
 
     } while (flag == 0); // Repeat the entire process if the user chooses to continue
 
-    getchar(); // Pause the program before exiting
     return 0; // Indicate successful program termination
 }
 
