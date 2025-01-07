@@ -1,5 +1,16 @@
 // Read two numbers. Write a program to find their product after exchanging their last digits.
 
+// Algorithm:
+// 1. Declare two integer variables to store the user input for both numbers.
+// 2. Prompt the user to input the first number.
+// 3. Prompt the user to input the second number.
+// 4. Swap the last digits of both numbers:
+//    - Remove the last digit of the first number and add the last digit of the second number.
+//    - Remove the last digit of the second number and add the last digit of the first number.
+// 5. Display the modified numbers after swapping their last digits.
+// 6. Calculate and display the product of the modified numbers.
+// 7. Return 0 to indicate successful execution.
+
 #include<stdio.h>   // Header file for standard input/output functions
 #include<conio.h>   // Header file for console input/output functions (used for getch())
 
@@ -30,3 +41,10 @@ int main()
     getch();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
+
+// Variable Description:
+
+// | Variable Identifier | Data Type | Use/Description                                    |
+// |---------------------|-----------|----------------------------------------------------|
+// | number1             | int       | Stores the first number entered by the user        |
+// | number2             | int       | Stores the second number entered by the user       |

@@ -1,5 +1,16 @@
 // Write a program to exchange the last two digits of any user given input number.
 
+// Algorithm:
+// 1. Declare an integer variable to store the number.
+// 2. Prompt the user to input a number.
+// 3. Calculate and display the last two digits of the number using the modulus operator.
+// 4. Remove the last two digits from the number.
+// 5. Extract the second last digit and place it in the units position.
+// 6. Move the last digit to the tens place.
+// 7. Reassemble the number with the last two digits swapped.
+// 8. Display the new number after exchanging the last two digits.
+// 9. Return 0 to indicate successful execution of the program.
+
 #include<stdio.h>   // Header file for standard input/output functions
 #include<conio.h>   // Header file for console input/output functions (used for getch())
 
@@ -27,3 +38,9 @@ int main()
     getch();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
+
+// Variable Description:
+
+// | Variable Identifier | Data Type | Use/Description                                    |
+// |---------------------|-----------|----------------------------------------------------|
+// | number              | int       | Stores the number entered by the user for processing |

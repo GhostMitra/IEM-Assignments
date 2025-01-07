@@ -1,5 +1,14 @@
 // Write a program to insert 1 as a first digit after decimal.
 
+// Algorithm:
+// 1. Declare a variable of type double to store the user input number.
+// 2. Prompt the user to input a number with a decimal.
+// 3. Extract the integer part of the number using type casting.
+// 4. Add 0.1 to the integer part to insert '1' after the decimal point.
+// 5. Extract the fractional part of the number, scale it, and add it back to the result.
+// 6. Display the modified number with '1' inserted after the decimal point.
+// 7. Return 0 to indicate successful execution.
+
 #include<stdio.h>   // Header file for standard input/output functions
 #include<conio.h>   // Header file for console input/output functions (used for getch())
 
@@ -23,3 +32,9 @@ int main()
     getch();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
+
+// Variable Description:
+
+// | Variable Identifier | Data Type | Use/Description                                       |
+// |---------------------|-----------|-------------------------------------------------------|
+// | number              | double    | Stores the number entered by the user with decimal part|
