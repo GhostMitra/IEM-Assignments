@@ -46,7 +46,7 @@ int main()
     // Print the calculated distance between the two points
     printf("Distance between points (%.2lf, %.2lf) and (%.2lf, %.2lf) is %.2lf\n", x_1, y_1, x_2, y_2, distance(x_1, y_1, x_2, y_2));
 
-    getch(); // Pause the output screen before exiting
+    getchar(); // Pause the output screen before exiting
     return 0; // Indicate successful execution
 }
 

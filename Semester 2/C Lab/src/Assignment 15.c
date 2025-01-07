@@ -22,7 +22,7 @@ int main()
     // Check if the number is even or odd and display the result
     printf("%ld is %s number.\n", number, (number % 2 == 0) ? "even" : "odd");
 
-    getch();  // Pause the output screen before exiting
+    getchar();  // Pause the output screen before exiting
     return 0; // Indicate successful execution
 }
 

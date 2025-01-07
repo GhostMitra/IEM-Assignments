@@ -23,7 +23,7 @@ int main()
     // Subtracting from the original number gives the last digit.
     printf("The last digit of the number is %d \n", number - (number / 10) * 10);
 
-    getch();  // Wait for a key press to pause the output screen
+    getchar();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
 

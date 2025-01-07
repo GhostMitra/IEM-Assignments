@@ -53,7 +53,7 @@ int main()
     number1 ^= number2;  // XOR the new value of number2 with number1 and store the result in number1
     printf("After swapping, the numbers are again: %d, %d \n", number1, number2);
 
-    getch();  // Wait for a key press to pause the output screen
+    getchar();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
 

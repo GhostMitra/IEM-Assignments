@@ -37,7 +37,7 @@ int main()
     // Multiply the new numbers after swapping their last digits
     printf("The product of the new numbers %d, %d is: %d\n", number1 - number1 % 10 + number2 % 10, number2 - number2 % 10 + number1 % 10, (number1 - number1 % 10 + number2 % 10) * (number2 - number2 % 10 + number1 % 10));
 
-    getch();  // Wait for a key press to pause the output screen
+    getchar();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
 

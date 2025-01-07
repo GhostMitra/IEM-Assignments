@@ -30,7 +30,7 @@ int main()
     // Display the new number after doubling the last digit
     printf("The new number after doubling the last digit is %d \n", number);
 
-    getch();  // Wait for a key press to pause the output screen
+    getchar();  // Wait for a key press to pause the output screen
     return 0; // Return 0 to indicate successful execution
 }
 
