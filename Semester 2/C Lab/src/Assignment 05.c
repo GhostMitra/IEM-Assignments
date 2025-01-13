@@ -35,6 +35,6 @@ int main()
 
 // Variable Description:
 
-// | Variable Identifier | Data Type | Use/Description                                    |
-// |---------------------|-----------|----------------------------------------------------|
+// | Variable Identifier | Data Type | Use/Description                                      |
+// |---------------------|-----------|------------------------------------------------------|
 // | number              | int       | Stores the number entered by the user for processing |
