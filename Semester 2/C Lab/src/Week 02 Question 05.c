@@ -16,31 +16,31 @@ char grade(double totalMarks, double fullMarks)
     // Determine the grade based on percentage
     if (totalMarks / fullMarks <= 1 && totalMarks / fullMarks >= 0.9) 
     {
-        return 'A';  // Grade A for marks 90% and above
+        return 'O';  // Grade O for marks 90% and above
     } 
     else if (totalMarks / fullMarks < 0.9 && totalMarks / fullMarks >= 0.8) 
     {
-        return 'B';  // Grade B for marks between 80% and 89%
+        return 'E';  // Grade E for marks between 80% and 89%
     } 
     else if (totalMarks / fullMarks < 0.8 && totalMarks / fullMarks >= 0.7) 
     {
-        return 'C';  // Grade C for marks between 70% and 79%
+        return 'A';  // Grade A for marks between 70% and 79%
     } 
     else if (totalMarks / fullMarks < 0.7 && totalMarks / fullMarks >= 0.6) 
     {
-        return 'D';  // Grade D for marks between 60% and 69%
+        return 'B';  // Grade B for marks between 60% and 69%
     } 
     else if (totalMarks / fullMarks < 0.6 && totalMarks / fullMarks >= 0.5) 
     {
-        return 'E';  // Grade E for marks between 50% and 59%
+        return 'C';  // Grade C for marks between 50% and 59%
     } 
     else if (totalMarks / fullMarks < 0.5 && totalMarks / fullMarks >= 0.4) 
     {
-        return 'F';  // Grade F for marks between 40% and 49%
+        return 'D';  // Grade D for marks between 40% and 49%
     } 
     else if (totalMarks < 0.4) 
     {
-        return 'X';  // Grade X for marks below 40%
+        return 'F';  // Grade F for marks below 40%
     }
 }
 
