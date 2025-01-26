@@ -1,4 +1,5 @@
 // Write a program to accept the marks of a student and display the grade accordingly.
+// [100-90: O, 89-80: E, 79-70: A, 69-60: B, 59-50: C, 49-40: D, Rest: F]
 
 // Algorithm:
 // 1. Start.
