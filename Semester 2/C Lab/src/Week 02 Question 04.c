@@ -10,10 +10,10 @@
 
 #include<stdio.h>   // Header file for standard input/output functions
 
-long unsigned sum = 0;  // Variable to store the sum of digits
+unsigned long long int sum = 0;  // Variable to store the sum of digits
 
 // Function to calculate the sum of digits recursively
-long unsigned digitsSum(long unsigned number) 
+unsigned long long int digitsSum(unsigned long long int number) 
 {
     if (number == 0)  // Base case: If the number is 0, return the sum of digits
     {
@@ -21,27 +21,27 @@ long unsigned digitsSum(long unsigned number)
     }
     else 
     {
-        sum = sum + (number % 10);  // Extract the last digit and add it to the sum
+        sum += (number % 10);  // Extract the last digit and add it to the sum
         return digitsSum(number / 10);  // Recursive call with the number divided by 10
     }
 }
 
 int main() 
 {
-    long unsigned num;  // Variable to store the input number
+    unsigned long long int num;  // Variable to store the input number
     printf("Enter a number: ");
-    scanf("%lu", &num);  // Read the number from the user
+    scanf("%llu", &num);  // Read the number from the user
 
     // Call the digitsSum function and display the sum of digits
-    printf("Sum of digits of the number %lu is %lu.\n", num, digitsSum(num));
+    printf("Sum of digits of the number %llu is %llu.\n", num, digitsSum(num));
 
     return 0;  // Indicate successful execution
 }
 
 /*
-Variable Identifier | Data Type     | Use/Description
---------------------|---------------|----------------------------
-sum                 | long unsigned | Stores the sum of the digits (used globally).
-num                 | long unsigned | Stores the input number entered by the user.
-number              | long unsigned | Stores the number passed to the digitsSum() function.
+Variable Identifier | Data Type              | Use/Description
+--------------------|------------------------|----------------------------
+sum                 | unsigned long long int | Stores the sum of the digits (used globally).
+num                 | unsigned long long int | Stores the input number entered by the user.
+number              | unsigned long long int | Stores the number passed to the digitsSum() function.
 */

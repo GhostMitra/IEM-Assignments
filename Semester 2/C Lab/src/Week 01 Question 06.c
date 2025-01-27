@@ -1,4 +1,4 @@
-// Read two numbers. Write a program to find their product after exchanging their last digits.
+// Write a program to read two numbers and find their product after exchanging their last digits.
 
 // Algorithm:
 // 1. Declare two integer variables to store the user input for both numbers.

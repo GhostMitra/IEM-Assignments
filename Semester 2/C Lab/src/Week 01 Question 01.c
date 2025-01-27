@@ -11,7 +11,7 @@
 // Main function - entry point of the program
 int main()
 {
-    printf("Hello World \n");  // Prints "Hello World" followed by a newline character
+    printf("Hello World\n");  // Prints "Hello World" followed by a newline character
     return 0;                  // Returns 0 to indicate successful execution
 }
 

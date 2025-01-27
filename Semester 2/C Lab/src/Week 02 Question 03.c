@@ -13,20 +13,20 @@
 
 int main() 
 {
-    long number;  // Declare variable to store the number entered by the user
+    long long int number;  // Declare variable to store the number entered by the user
 
     // Prompt the user to enter a number
     printf("Enter a number: ");
-    scanf("%ld", &number);  // Read the input number from the user
+    scanf("%lld", &number);  // Read the input number from the user
 
     // Check if the number is even or odd and display the result
-    printf("%ld is %s number.\n", number, (number % 2 == 0) ? "even" : "odd");
+    printf("%lld is %s number.\n", number, (number % 2 == 0) ? "even" : "odd");
 
     return 0; // Indicate successful execution
 }
 
 /*
-Variable Identifier | Data Type | Use/Description
---------------------|-----------|----------------------------
-number              | long      | Stores the input number entered by the user.
+Variable Identifier | Data Type         | Use/Description
+--------------------|-------------------|----------------------------
+number              | long long int     | Stores the input number entered by the user.
 */

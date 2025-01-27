@@ -2,6 +2,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Build and Debug Active File (Linux)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Semester 2/C Lab/out/linux_x64/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Semester 2/C Lab",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc linux x64 build active file"
+        },
+        {
             "name": "Build and Debug Active File (Windows)",
             "type": "cppdbg",
             "request": "launch",
@@ -21,27 +42,6 @@
                 }
             ],
             "preLaunchTask": "C/C++: gcc windows x64 build active file"
-        },
-        {
-            "name": "Build and Debug Active File (Linux)",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/Semester 2/C Lab/out/linux_x64/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/Semester 2/C Lab",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "/usr/bin/gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: gcc linux x64 build active file"
         }
     ]
 }
