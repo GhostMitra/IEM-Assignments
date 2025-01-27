@@ -3,7 +3,7 @@
 bool isPerfect(unsigned long long int number)
 {
     unsigned long long int i, sum = 0;
-    for(i=1; i<number; i++)
+    for(i=1; i<number/2 +1; i++)
     {
         if(number%i == 0)
         {
