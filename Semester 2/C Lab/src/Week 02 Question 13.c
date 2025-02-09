@@ -20,11 +20,13 @@ double volumeCuboid(double length, double breadth, double height)
 {
     return length * breadth * height;
 }
-int main() {
+int main() 
+{
     int choice;
     double r, h, l, b;
 
-    while (1) {
+    while (1) 
+    {
         printf("\n--- Volume Calculator ---\n");
         printf("1. Sphere\n2. Cylinder\n3. Cone\n4. Cuboid\n5. Exit\n");
         printf("Enter your choice: ");
@@ -34,22 +36,30 @@ int main() {
             case 1:
                 printf("Enter radius of sphere: ");
                 scanf("%lf", &r);
-                printf("Volume of Sphere: %.2lf\n", volumeSphere(r));
+                printf("Volume of Sphere: %.2lf sq. unit\n", volumeSphere(r));
                 break;
             case 2:
-                printf("Enter radius and height of cylinder: ");
-                scanf("%lf %lf", &r, &h);
-                printf("Volume of Cylinder: %.2lf\n", volumeCylinder(r, h));
+                printf("Enter radius of cylinder: ");
+                scanf("%lf", &r);
+                printf("Enter height of cylinder: ");
+                scanf("%lf", &h);
+                printf("Volume of Cylinder: %.2lf sq. unit\n", volumeCylinder(r, h));
                 break;
             case 3:
-                printf("Enter radius and height of cone: ");
-                scanf("%lf %lf", &r, &h);
-                printf("Volume of Cone: %.2lf\n", volumeCone(r, h));
+                printf("Enter radius of cone: ");
+                scanf("%lf", &r);
+                printf("Enter height of cone: ");
+                scanf("%lf", &h);
+                printf("Volume of Cone: %.2lf sq. unit\n", volumeCone(r, h));
                 break;
             case 4:
-                printf("Enter length, breadth, and height of cuboid: ");
-                scanf("%lf %lf %lf", &l, &b, &h);
-                printf("Volume of Cuboid: %.2lf\n", volumeCuboid(l, b, h));
+                printf("Enter length of cuboid: ");
+                scanf("%lf", &l);
+                printf("Enter breadth of cuboid: ");
+                scanf("%lf", &b);
+                printf("Enter height of cuboid: ");
+                scanf("%lf", &h);
+                printf("Volume of Cuboid: %.2lf sq. unit\n", volumeCuboid(l, b, h));
                 break;
             case 5:
                 printf("Exiting program.\n");
