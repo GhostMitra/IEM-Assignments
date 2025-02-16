@@ -9,7 +9,7 @@ void increasingLeftRightAngledStarTriangle(unsigned long long int lines)
 }
 int main()
 {
-   	unsigned long long int numberOfLine, i, j;
+   	unsigned long long int numberOfLine;
    	printf("Enter the number of lines you want to print the pattern: ");
    	scanf("%llu", &numberOfLine);
    	increasingLeftRightAngledStarTriangle(numberOfLine);
