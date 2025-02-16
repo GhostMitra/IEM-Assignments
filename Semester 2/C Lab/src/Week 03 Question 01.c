@@ -13,4 +13,5 @@ int main()
     printf("Enter the number of lines you want to print the pattern: ");
    	scanf("%llu", &numberOfLine);
 	   fourByNStarRectangle(numberOfLine);
+    return 0;
 }
