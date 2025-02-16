@@ -13,4 +13,5 @@ int main()
    	printf("Enter the number of lines you want to print the pattern: ");
    	scanf("%llu", &numberOfLine);
    	increasingLeftRightAngledStarTriangle(numberOfLine);
+   	return 0;
 }
