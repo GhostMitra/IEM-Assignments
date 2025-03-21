@@ -15,7 +15,7 @@ void centeredPascalsTriangle(unsigned long long int lines)
     for (i = 1; i <= lines; i++) 
     {
         for (j = 1; j <= lines - i; printf(" "), j++);
-        for (j = 1; j <= i; printf("%d ", combination(i - 1, j - 1)), j++);
+        for (j = 1; j <= i; printf("%llu ", combination(i - 1, j - 1)), j++);
         printf("\n");
     }
 }
