@@ -8,13 +8,13 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/Semester 2/C Lab/src/${fileBasename}",
+                "${workspaceFolder}/Semester 3/DSA Lab/src/${fileBasename}",
                 "-o",
-                "${workspaceFolder}/Semester 2/C Lab/out/linux_x64/${fileBasenameNoExtension}",
+                "${workspaceFolder}/Semester 3/DSA Lab/out/linux_x64/${fileBasenameNoExtension}",
                 "-lm"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/Semester 2/C Lab/src"
+                "cwd": "${workspaceFolder}/Semester 3/DSA Lab/src"
             },
             "problemMatcher": [
                 "$gcc"
