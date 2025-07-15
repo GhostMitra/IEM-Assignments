@@ -2,6 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "palindromeNumber",
+            "request": "launch",
+            "mainClass": "palindromeNumber",
+            "projectName": "IEM-Assignments_c3c95fe8"
+        },
+        {
+            "type": "java",
+            "name": "extractDigitsOfANumber",
+            "request": "launch",
+            "mainClass": "extractDigitsOfANumber",
+            "projectName": "IEM-Assignments_c3c95fe8"
+        },
+        {
             "name": "Build and Debug Active File (Linux)",
             "type": "cppdbg",
             "request": "launch",
