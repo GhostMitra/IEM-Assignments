@@ -119,9 +119,6 @@
     <wire from="(140,790)" to="(340,790)"/>
     <wire from="(140,530)" to="(140,720)"/>
     <wire from="(210,840)" to="(340,840)"/>
-    <comp lib="1" loc="(310,640)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="0" loc="(740,310)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -130,90 +127,99 @@
     <comp lib="1" loc="(400,680)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(370,400)" name="OR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="1" loc="(160,570)" name="NOT Gate">
+      <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(530,75)" name="Text">
+    <comp lib="6" loc="(591,83)" name="Text">
       <a name="text" val="Assignment - 2"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="6" loc="(449,457)" name="Text">
-      <a name="text" val="Using Minimum Number of Gates"/>
-    </comp>
-    <comp lib="0" loc="(160,160)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(122,136)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(380,220)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,570)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(490,260)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(140,494)" name="Text">
-      <a name="text" val="A"/>
+    <comp lib="1" loc="(430,770)" name="NOT Gate"/>
+    <comp lib="6" loc="(209,494)" name="Text">
+      <a name="text" val="B"/>
     </comp>
     <comp lib="1" loc="(380,310)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(160,570)" name="NOT Gate">
-      <a name="facing" val="south"/>
+    <comp lib="6" loc="(897,776)" name="Text">
+      <a name="text" val="Y = [(A'B + B'A)(AB)'] + (A + B)"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="1" loc="(390,860)" name="OR Gate">
+    <comp lib="1" loc="(310,640)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(160,136)" name="Text">
-      <a name="text" val="B"/>
+    <comp lib="1" loc="(510,720)" name="AND Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(140,520)" name="Pin">
+    <comp lib="1" loc="(370,400)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(483,457)" name="Text">
+      <a name="text" val="Using Minimum Number of Gates"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(230,570)" name="NOT Gate">
       <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(310,700)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(390,770)" name="AND Gate"/>
-    <comp lib="0" loc="(760,770)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(886,774)" name="Text">
-      <a name="text" val="Y = [(A'B + B'A)(AB)'] + (A + B)"/>
-    </comp>
-    <comp lib="0" loc="(120,160)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(430,770)" name="NOT Gate"/>
-    <comp lib="1" loc="(660,770)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(210,520)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(514,913)" name="Text">
+    <comp lib="0" loc="(760,770)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(120,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(140,494)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="6" loc="(489,909)" name="Text">
       <a name="text" val="Using Basic Gates"/>
-    </comp>
-    <comp lib="6" loc="(866,314)" name="Text">
-      <a name="text" val="Y = [(A'B + B'A)(AB)'] + (A + B)"/>
-    </comp>
-    <comp lib="6" loc="(538,45)" name="Text">
-      <a name="text" val="Name - Debarghaya Mitra            Enrollment Number - 12024052002215            Branch - CSE                Section - C                Roll No - 248"/>
-    </comp>
-    <comp lib="6" loc="(209,494)" name="Text">
-      <a name="text" val="B"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
     <comp lib="1" loc="(640,310)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(510,720)" name="AND Gate">
+    <comp lib="0" loc="(160,160)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(160,136)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(490,260)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(583,47)" name="Text">
+      <a name="text" val="Name - Debarghaya Mitra            Enrollment Number - 12024052002215            Branch - CSE                Section - C                Roll No - 248"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(390,770)" name="AND Gate"/>
+    <comp lib="6" loc="(881,317)" name="Text">
+      <a name="text" val="Y = [(A'B + B'A)(AB)'] + (A + B)"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(122,136)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="1" loc="(660,770)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(390,860)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(140,520)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(380,220)" name="XOR Gate">
       <a name="inputs" val="2"/>
     </comp>
   </circuit>
