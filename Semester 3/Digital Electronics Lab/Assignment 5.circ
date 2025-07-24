@@ -6,7 +6,13 @@
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
-  <lib desc="#Memory" name="4"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
   <lib desc="#I/O" name="5"/>
   <lib desc="#Base" name="6">
     <tool name="Text Tool">
@@ -53,9 +59,9 @@
     <a name="circuit" val="main"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(40,210)" to="(360,210)"/>
+    <a name="clabelfont" val="Open Sans bold 16"/>
     <wire from="(40,310)" to="(360,310)"/>
+    <wire from="(40,210)" to="(360,210)"/>
     <wire from="(70,330)" to="(70,460)"/>
     <wire from="(150,350)" to="(150,420)"/>
     <wire from="(530,310)" to="(580,310)"/>
@@ -65,9 +71,9 @@
     <wire from="(120,110)" to="(120,250)"/>
     <wire from="(630,330)" to="(690,330)"/>
     <wire from="(20,130)" to="(20,400)"/>
-    <wire from="(410,230)" to="(530,230)"/>
     <wire from="(410,420)" to="(530,420)"/>
     <wire from="(530,350)" to="(530,420)"/>
+    <wire from="(410,230)" to="(530,230)"/>
     <wire from="(410,330)" to="(580,330)"/>
     <wire from="(120,250)" to="(360,250)"/>
     <wire from="(40,130)" to="(40,150)"/>
@@ -91,52 +97,21 @@
     <wire from="(90,230)" to="(360,230)"/>
     <wire from="(90,180)" to="(90,230)"/>
     <wire from="(120,250)" to="(120,500)"/>
-    <comp lib="1" loc="(40,180)" name="NOT Gate">
-      <a name="facing" val="south"/>
+    <comp lib="6" loc="(467,411)" name="Text">
+      <a name="text" val="AD(B'C + BC')"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="0" loc="(20,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(90,180)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(70,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(120,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="C"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(410,420)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(410,230)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(690,330)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="F = A'B'C + A'BD + AD(B'C + BC')"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(479,33)" name="Text">
+    <comp lib="6" loc="(504,30)" name="Text">
       <a name="text" val="Name - Debarghaya Mitra        Enrollment Number - 12024052002215        Branch - CSE        Section - C        Roll No - 248"/>
-    </comp>
-    <comp lib="1" loc="(410,330)" name="AND Gate">
-      <a name="inputs" val="3"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
     <comp lib="1" loc="(280,480)" name="XOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(630,330)" name="OR Gate">
+    <comp lib="6" loc="(435,222)" name="Text">
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(410,230)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(150,110)" name="Pin">
@@ -144,9 +119,74 @@
       <a name="tristate" val="false"/>
       <a name="label" val="D"/>
       <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="6" loc="(411,62)" name="Text">
+    <comp lib="6" loc="(435,321)" name="Text">
+      <a name="text" val="A'BD"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(101,197)" name="Text">
+      <a name="text" val="B'"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(90,180)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(313,500)" name="Text">
+      <a name="text" val="B'C + BC'"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(435,221)" name="Text">
+      <a name="text" val="A'B'C"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(20,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(410,420)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(410,330)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(630,330)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(40,180)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(690,330)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="F = A'B'C + A'BD + AD(B'C + BC')"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(120,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(70,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(52,197)" name="Text">
+      <a name="text" val="A'"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(502,58)" name="Text">
       <a name="text" val="Assignment - 5"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
   </circuit>
 </project>
