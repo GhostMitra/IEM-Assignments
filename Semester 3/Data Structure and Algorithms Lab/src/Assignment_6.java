@@ -16,8 +16,6 @@ class Product {
     // Getters and setters
     public int getId() { return id; }
 
-    public String getName() { return name; }
-
     public double getPrice() { return price; }
 
     public int getQuantity() { return quantity; }

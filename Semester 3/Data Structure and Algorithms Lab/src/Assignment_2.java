@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 class MissingNumberFinder {
-    private int[] arr;
-    private int n;
+    private final int[] arr;
+    private final int n;
 
     MissingNumberFinder(int[] arr, int n) {
         this.arr = arr;
