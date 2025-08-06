@@ -1,12 +1,17 @@
+// You are given two sorted arrays, arr1 and arr2, each of size m and n, respectively. Design a
+// function to merge these two arrays into a single sorted array without using extra space.
+
 import java.util.Scanner;
 
-class MergeArrays {
+class MergeArrays 
+{
     private final int[] arr1;
     private final int[] arr2;
     private final int m;
     private final int n;
 
-    MergeArrays(int[] arr1, int[] arr2) {
+    MergeArrays(int[] arr1, int[] arr2) 
+    {
         this.arr1 = arr1;
         this.arr2 = arr2;
         this.m = arr1.length;
@@ -14,15 +19,20 @@ class MergeArrays {
     }
 
     // Merges arr1 and arr2 into a new sorted array
-    int[] mergeToOneArray() {
+    int[] mergeToOneArray() 
+    {
         int[] result = new int[m + n];
         int i = 0, j = 0, k = 0;
 
         // Merge both arrays
-        while (i < m && j < n) {
-            if (arr1[i] <= arr2[j]) {
+        while (i < m && j < n) 
+        {
+            if (arr1[i] <= arr2[j]) 
+            {
                 result[k++] = arr1[i++];
-            } else {
+            }
+            else
+            {
                 result[k++] = arr2[j++];
             }
         }
@@ -33,7 +43,8 @@ class MergeArrays {
     }
 
     // Returns a string version of merged 1D array
-    String mergedArrayString(int[] merged) {
+    String mergedArrayString(int[] merged) 
+    {
         StringBuilder sb = new StringBuilder();
         sb.append("Merged 1D array: ");
         for (int x : merged) sb.append(x).append(" ");
@@ -41,8 +52,10 @@ class MergeArrays {
     }
 }
 
-public class Assignment_1 {
-    public static void main(String[] args) {
+public class Assignment_1 
+{
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of elements in arr1: ");
