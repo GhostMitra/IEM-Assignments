@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a21ea295-2471-441d-9a10-cac8b365e13c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Semester 3/Data Structure and Algorithms Lab/src/Assignment_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3a (i).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3a (i).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3a (ii).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3a (ii).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3b (i).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3b (i).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3b (ii).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 3b (ii).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4a.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4b (i).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4b (i).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4b (iii).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4b (iii).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4b (iv).asc" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Analog Electronics Circuit Lab/Assignment 4b (iv).asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Data Structure and Algorithms Lab/out/linux_x64/Assignment 1a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Data Structure and Algorithms Lab/src/Assignment 1a.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Data Structure and Algorithms Lab/src/Assignment 1b.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Data Structure and Algorithms Lab/src/Assignment 1c.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester 3/Data Structure and Algorithms Lab/src/Assignment 1d.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semester 3/Digital Electronics Lab/Assignment 6.circ" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Digital Electronics Lab/Assignment 6.circ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semester 3/Digital Electronics Lab/Assignment 7.circ" beforeDir="false" afterPath="$PROJECT_DIR$/Semester 3/Digital Electronics Lab/Assignment 7.circ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="30vDCEEzDXPtPBikb59mIVKi1z2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,8 +32,13 @@
   "keyToString": {
     "Application.Assignment_1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 3/Data Structure and Algorithms Lab",
     "nodejs_package_manager_path": "npm",
@@ -62,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754499022669</updated>
       <workItem from="1754499023972" duration="92000" />
+      <workItem from="1754845202835" duration="43000" />
     </task>
     <servers />
   </component>

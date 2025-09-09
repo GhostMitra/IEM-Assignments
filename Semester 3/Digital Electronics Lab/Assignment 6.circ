@@ -71,11 +71,11 @@
     <wire from="(270,520)" to="(310,520)"/>
     <wire from="(750,410)" to="(750,430)"/>
     <wire from="(750,390)" to="(750,410)"/>
+    <wire from="(180,300)" to="(210,300)"/>
     <wire from="(180,260)" to="(210,260)"/>
     <wire from="(180,420)" to="(210,420)"/>
     <wire from="(180,500)" to="(210,500)"/>
     <wire from="(180,380)" to="(210,380)"/>
-    <wire from="(180,300)" to="(210,300)"/>
     <wire from="(840,410)" to="(860,410)"/>
     <wire from="(180,540)" to="(210,540)"/>
     <wire from="(750,170)" to="(750,210)"/>
@@ -122,21 +122,14 @@
     <wire from="(290,280)" to="(290,320)"/>
     <wire from="(290,360)" to="(290,400)"/>
     <wire from="(840,230)" to="(870,230)"/>
-    <comp lib="6" loc="(294,220)" name="Text">
-      <a name="text" val="AND Gate using NAND Gate"/>
-    </comp>
-    <comp lib="1" loc="(740,520)" name="NOR Gate">
+    <comp lib="1" loc="(380,340)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(610,390)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
+    <comp lib="6" loc="(754,470)" name="Text">
+      <a name="text" val="OR Gate using NOR Gate"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="0" loc="(620,520)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="1" loc="(730,290)" name="NOR Gate">
+    <comp lib="1" loc="(740,520)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(780,520)" name="Pin">
@@ -144,91 +137,68 @@
       <a name="output" val="true"/>
       <a name="label" val="F = A'"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(150,140)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="1" loc="(380,160)" name="NAND Gate">
-      <a name="inputs" val="2"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
     <comp lib="0" loc="(400,340)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="F = A + B"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(150,520)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="6" loc="(719,580)" name="Text">
-      <a name="text" val="OR Gate using NOR Gate"/>
-    </comp>
-    <comp lib="0" loc="(150,400)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="0" loc="(400,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="F = AB"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(860,410)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="F = A + B"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(730,410)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(411,62)" name="Text">
-      <a name="text" val="Assignment - 6"/>
-    </comp>
-    <comp lib="1" loc="(270,400)" name="NAND Gate">
-      <a name="inputs" val="2"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
     <comp lib="0" loc="(610,170)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="1" loc="(380,340)" name="NAND Gate">
+    <comp lib="0" loc="(150,520)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(270,400)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(310,520)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="F = A'"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="6" loc="(485,69)" name="Text">
+      <a name="text" val="Assignment - 6"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="0" loc="(150,180)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
+    <comp lib="6" loc="(295,454)" name="Text">
+      <a name="text" val="OR Gate using NAND Gate"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="6" loc="(754,470)" name="Text">
-      <a name="text" val="OR Gate using NOR Gate"/>
+    <comp lib="6" loc="(521,37)" name="Text">
+      <a name="text" val="Name - Debarghaya Mitra        Enrollment Number - 12024052002215        Branch - CSE        Section - C        Roll No - 248"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(294,220)" name="Text">
+      <a name="text" val="AND Gate using NAND Gate"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
     <comp lib="0" loc="(610,430)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
-    </comp>
-    <comp lib="1" loc="(270,280)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(249,580)" name="Text">
-      <a name="text" val="AND Gate using NAND Gate"/>
-    </comp>
-    <comp lib="0" loc="(870,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="F = AB"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
     <comp lib="0" loc="(150,280)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(730,170)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(755,344)" name="Text">
+      <a name="text" val="AND Gate using NOR Gate"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(610,390)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(730,410)" name="NOR Gate">
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(270,520)" name="NAND Gate">
       <a name="inputs" val="2"/>
@@ -236,27 +206,81 @@
     <comp lib="1" loc="(840,230)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="0" loc="(150,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
     <comp lib="1" loc="(840,410)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(730,170)" name="NOR Gate">
+    <comp lib="1" loc="(270,280)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(755,344)" name="Text">
-      <a name="text" val="AND Gate using NOR Gate"/>
+    <comp lib="0" loc="(150,180)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="6" loc="(295,454)" name="Text">
-      <a name="text" val="OR Gate using NAND Gate"/>
+    <comp lib="6" loc="(249,580)" name="Text">
+      <a name="text" val="AND Gate using NAND Gate"/>
+      <a name="font" val="Open Sans bold 16"/>
     </comp>
-    <comp lib="1" loc="(270,160)" name="NAND Gate">
+    <comp lib="1" loc="(730,290)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(479,33)" name="Text">
-      <a name="text" val="Name - Debarghaya Mitra        Enrollment Number - 12024052002215        Branch - CSE        Section - C        Roll No - 248"/>
+    <comp lib="0" loc="(620,520)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(310,520)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="F = A'"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
     <comp lib="0" loc="(610,290)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="6" loc="(719,580)" name="Text">
+      <a name="text" val="OR Gate using NOR Gate"/>
+      <a name="font" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(400,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="F = AB"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="0" loc="(860,410)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="F = A + B"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
+    </comp>
+    <comp lib="1" loc="(380,160)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(150,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(270,160)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(870,230)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="F = AB"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="Open Sans bold 16"/>
     </comp>
   </circuit>
 </project>

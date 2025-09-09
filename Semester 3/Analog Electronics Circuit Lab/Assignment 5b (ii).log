@@ -1,0 +1,21 @@
+LTspice 24.1.9 for Windows
+Circuit: Z:\home\debarghaya\Documents\GitHub\IEM-Assignments\Semester 3\Analog Electronics Circuit Lab\Assignment 5b (ii).net
+Start Time: Wed Sep  3 01:13:29 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+.step Vbc=0 
+.step Vbc=1 
+.step Vbc=2 
+.step Vbc=3 
+.step Vbc=4 
+.step Vbc=5 
+Total elapsed time: 0.329 seconds.
+
+Files loaded:
+Z:\home\debarghaya\Documents\GitHub\IEM-Assignments\Semester 3\Analog Electronics Circuit Lab\Assignment 5b (ii).net
+C:\users\debarghaya\AppData\Local\LTspice\lib\cmp\standard.bjt
+
