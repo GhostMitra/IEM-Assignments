@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment_2",
+            "request": "launch",
+            "mainClass": "Assignment_2",
+            "projectName": "IEM-Assignments_c3c95fe8"
+        },
+        {
+            "type": "java",
+            "name": "Assingment_2",
+            "request": "launch",
+            "mainClass": "Assingment_2",
+            "projectName": "IEM-Assignments_c3c95fe8"
+        },
+        {
+            "type": "java",
             "name": "largestPalindromicSubstring",
             "request": "launch",
             "mainClass": "largestPalindromicSubstring",
