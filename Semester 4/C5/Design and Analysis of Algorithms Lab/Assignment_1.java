@@ -76,6 +76,7 @@ public class Assignment_1
         System.out.println("Enter the elements of the sorted array:");
         for (int i = 0; i < n; i++)
         {
+            System.out.print("Enter element number " + (i + 1) + ": ");
             arr[i] = sc.nextInt();
         }
 

@@ -4,15 +4,19 @@ import java.util.Scanner;
 class MatrixSearchResult
 {
     private boolean found;
+    private int row;
+    private int col;
 
-    public MatrixSearchResult(boolean found)
+    public MatrixSearchResult(boolean found, int row, int col)
     {
         this.found = found;
+        this.row = row;
+        this.col = col;
     }
 
     public String toString()
     {
-        return found ? "Element found" : "Element not found";
+        return found ? "Element found at position [" + row + "][" + col + "]" : "Element not found";
     }
 }
 
@@ -29,6 +33,7 @@ class MatrixSearch
     public MatrixSearchResult search(int target)
     {
         int n = matrix.length;
+        if (n == 0) return new MatrixSearchResult(false, -1, -1);
         int m = matrix[0].length;
         int low = 0, high = n * m - 1;
 
@@ -40,7 +45,7 @@ class MatrixSearch
 
             if (matrix[r][c] == target)
             {
-                return new MatrixSearchResult(true);
+                return new MatrixSearchResult(true, r, c);
             }
             if (matrix[r][c] > target)
             {
@@ -51,7 +56,7 @@ class MatrixSearch
                 low = mid + 1;
             }
         }
-        return new MatrixSearchResult(false);
+        return new MatrixSearchResult(false, -1, -1);
     }
 }
 
@@ -61,8 +66,9 @@ public class Assignment_3
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of rows and columns: ");
+        System.out.print("Enter the number of rows: ");
         int r = sc.nextInt();
+        System.out.print("Enter the number of columns: ");
         int c = sc.nextInt();
 
         if (r <= 0 || c <= 0)
@@ -78,6 +84,7 @@ public class Assignment_3
         {
             for (int j = 0; j < c; j++)
             {
+                System.out.print("Enter element at [" + i + "][" + j + "]: ");
                 mat[i][j] = sc.nextInt();
             }
         }

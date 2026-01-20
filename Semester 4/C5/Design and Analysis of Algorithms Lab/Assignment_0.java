@@ -83,6 +83,7 @@ public class Assignment_0
             System.out.println("Enter the elements of the array:");
             for (int i = 0; i < n; i++)
             {
+                System.out.print("Enter element number " + (i + 1) + ": ");
                 arr[i] = sc.nextInt();
             }
         }
