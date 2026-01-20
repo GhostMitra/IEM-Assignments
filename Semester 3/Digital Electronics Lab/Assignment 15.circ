@@ -6,7 +6,13 @@
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
-  <lib desc="#Memory" name="4"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
   <lib desc="#I/O" name="5"/>
   <lib desc="#Base" name="6">
     <tool name="Text Tool">
@@ -54,96 +60,111 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(580,180)" to="(700,180)"/>
-    <wire from="(420,170)" to="(420,240)"/>
-    <wire from="(580,370)" to="(700,370)"/>
-    <wire from="(550,260)" to="(600,260)"/>
-    <wire from="(650,280)" to="(700,280)"/>
-    <wire from="(350,360)" to="(530,360)"/>
-    <wire from="(450,160)" to="(450,300)"/>
-    <wire from="(390,110)" to="(390,120)"/>
-    <wire from="(420,120)" to="(420,140)"/>
-    <wire from="(390,120)" to="(390,200)"/>
-    <wire from="(350,280)" to="(350,360)"/>
-    <wire from="(450,300)" to="(450,390)"/>
-    <wire from="(310,350)" to="(530,350)"/>
-    <wire from="(390,120)" to="(420,120)"/>
-    <wire from="(450,300)" to="(600,300)"/>
-    <wire from="(350,280)" to="(500,280)"/>
-    <wire from="(350,110)" to="(350,280)"/>
-    <wire from="(390,200)" to="(530,200)"/>
-    <wire from="(390,200)" to="(390,380)"/>
-    <wire from="(390,380)" to="(530,380)"/>
-    <wire from="(450,110)" to="(450,160)"/>
-    <wire from="(310,110)" to="(310,350)"/>
-    <wire from="(450,160)" to="(530,160)"/>
-    <wire from="(420,240)" to="(500,240)"/>
-    <wire from="(450,390)" to="(530,390)"/>
-    <comp lib="6" loc="(520,449)" name="Text">
-      <a name="text" val="4 X 2 Priority Encoder"/>
-    </comp>
-    <comp lib="1" loc="(580,180)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(650,280)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(700,280)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Y = I1 I2' + I3"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(350,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="I1"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(310,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="I0"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(700,180)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="X = I2 + I3"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(541,31)" name="Text">
-      <a name="text" val="Name - Debarghaya Mitra        Enrollment Number - 12024052002215        Branch - CSE        Section - C        Roll No - 248"/>
-    </comp>
-    <comp lib="6" loc="(535,53)" name="Text">
-      <a name="text" val="Assignment - 14"/>
-    </comp>
-    <comp lib="1" loc="(420,170)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(390,110)" name="Pin">
+    <wire from="(580,210)" to="(700,210)"/>
+    <wire from="(420,200)" to="(420,270)"/>
+    <wire from="(580,400)" to="(700,400)"/>
+    <wire from="(650,310)" to="(700,310)"/>
+    <wire from="(550,290)" to="(600,290)"/>
+    <wire from="(350,390)" to="(530,390)"/>
+    <wire from="(450,190)" to="(450,330)"/>
+    <wire from="(390,140)" to="(390,150)"/>
+    <wire from="(420,150)" to="(420,170)"/>
+    <wire from="(390,150)" to="(390,230)"/>
+    <wire from="(350,310)" to="(350,390)"/>
+    <wire from="(450,330)" to="(450,420)"/>
+    <wire from="(310,380)" to="(530,380)"/>
+    <wire from="(390,150)" to="(420,150)"/>
+    <wire from="(450,330)" to="(600,330)"/>
+    <wire from="(350,310)" to="(500,310)"/>
+    <wire from="(350,140)" to="(350,310)"/>
+    <wire from="(390,230)" to="(530,230)"/>
+    <wire from="(390,230)" to="(390,410)"/>
+    <wire from="(390,410)" to="(530,410)"/>
+    <wire from="(450,140)" to="(450,190)"/>
+    <wire from="(310,140)" to="(310,380)"/>
+    <wire from="(450,190)" to="(530,190)"/>
+    <wire from="(420,270)" to="(500,270)"/>
+    <wire from="(450,420)" to="(530,420)"/>
+    <comp lib="0" loc="(390,140)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="I2"/>
       <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="0" loc="(450,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="I3"/>
-      <a name="labelloc" val="north"/>
+    <comp lib="1" loc="(580,210)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="0" loc="(700,370)" name="Pin">
+    <comp lib="6" loc="(541,31)" name="Text">
+      <a name="text" val="Name - Debarghaya Mitra        Enrollment Number - 12024052002215        Branch - CSE        Section - C        Roll No - 248"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(520,479)" name="Text">
+      <a name="text" val="4 X 2 Priority Encoder"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(700,310)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Y = I1 I2' + I3"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(550,290)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(700,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="X = I2 + I3"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(700,400)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="V = I0 + I1 + I2 + I3"/>
       <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="1" loc="(550,260)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(580,370)" name="OR Gate">
+    <comp lib="1" loc="(580,400)" name="OR Gate">
       <a name="inputs" val="4"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(535,69)" name="Text">
+      <a name="text" val="Assignment - 15"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(650,310)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(310,140)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="I0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(350,140)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="I1"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(420,200)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(450,140)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="I3"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
   </circuit>
 </project>
