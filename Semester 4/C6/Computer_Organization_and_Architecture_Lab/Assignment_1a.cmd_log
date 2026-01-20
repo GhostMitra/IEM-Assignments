@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+par -w -intstyle ise -ol high -t 1 Assignment_1a_map.ncd Assignment_1a.ncd Assignment_1a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Assignment_1a.twx Assignment_1a.ncd -o Assignment_1a.twr Assignment_1a.pcf 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+par -w -intstyle ise -ol high -t 1 Assignment_1a_map.ncd Assignment_1a.ncd Assignment_1a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Assignment_1a.twx Assignment_1a.ncd -o Assignment_1a.twr Assignment_1a.pcf 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+par -w -intstyle ise -ol high -t 1 Assignment_1a_map.ncd Assignment_1a.ncd Assignment_1a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Assignment_1a.twx Assignment_1a.ncd -o Assignment_1a.twr Assignment_1a.pcf 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+par -w -intstyle ise -ol high -t 1 Assignment_1a_map.ncd Assignment_1a.ncd Assignment_1a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Assignment_1a.twx Assignment_1a.ncd -o Assignment_1a.twr Assignment_1a.pcf 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+par -w -intstyle ise -ol high -t 1 Assignment_1a_map.ncd Assignment_1a.ncd Assignment_1a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Assignment_1a.twx Assignment_1a.ncd -o Assignment_1a.twr Assignment_1a.pcf 
+xst -intstyle ise -ifn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.xst" -ofn "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "Assignment_1a.ngc" Assignment_1a.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Assignment_1a_map.ncd Assignment_1a.ngd Assignment_1a.pcf 
+par -w -intstyle ise -ol high -t 1 Assignment_1a_map.ncd Assignment_1a.ncd Assignment_1a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Assignment_1a.twx Assignment_1a.ncd -o Assignment_1a.twr Assignment_1a.pcf 

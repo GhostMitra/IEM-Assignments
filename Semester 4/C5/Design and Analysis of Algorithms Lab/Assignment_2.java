@@ -1,145 +1,108 @@
 import java.util.Scanner;
-import static java.lang.Integer.MAX_VALUE;
-import static java.lang.Integer.MIN_VALUE;
 
+/* Result class */
+class BinarySearchResult
+{
+    private int index;
 
-class MinMaxResult {
-    private int min;
-    private int max;
-    private int secondMin;
-    private int secondMax;
-    private boolean isValid;
-    private String message;
-    
-    public MinMaxResult(int min, int max, int secondMin, int secondMax, boolean isValid, String message) {
-        this.min = min;
-        this.max = max;
-        this.secondMin = secondMin;
-        this.secondMax = secondMax;
-        this.isValid = isValid;
-        this.message = message;
+    public BinarySearchResult(int index)
+    {
+        this.index = index;
     }
-    
-    public int getMin() { return min; }
-    public int getMax() { return max; }
-    public int getSecondMin() { return secondMin; }
-    public int getSecondMax() { return secondMax; }
-    public boolean isValid() { return isValid; }
-    public String getMessage() { return message; }
-    
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        if (!isValid) {
-            sb.append(message);
-        } else {
-            sb.append("Minimum: ").append(min).append("\n");
-            sb.append("Maximum: ").append(max).append("\n");
-            sb.append("Second Minimum: ").append(secondMin).append("\n");
-            sb.append("Second Maximum: ").append(secondMax);
-        }
-        return sb.toString();
+
+    public String toString()
+    {
+        return index != -1 ?
+            "Element found at index: " + index :
+            "Element not found";
     }
 }
 
-/**
- * ArrayAnalyzer class to analyze unsorted arrays
- */
-public class Assignment_2 {
-    private int[] array;
-    
-    public Assignment_2(int[] array) {                                
-        this.array = array;
+/* Logic class */
+class BinarySearchAlgo
+{
+    private int[] arr;
+
+    public BinarySearchAlgo(int[] arr)
+    {
+        this.arr = arr;
     }
-    
-    /**
-     * Validates if array is not null
-     * @return true if valid, false otherwise
-     */
-    private boolean validateArray() {
-        return array != null;
+
+    private int search(int low, int high, int target)
+    {
+        if (low > high)
+        {
+            return -1;
+        }
+        int mid = low + (high - low) / 2;
+        if (arr[mid] == target)
+        {
+            return mid;
+        }
+        if (arr[mid] > target)
+        {
+            return search(low, mid - 1, target);
+        }
+        return search(mid + 1, high, target);
     }
-    
-    /**
-     * Finds min, max, second min, and second max from an unsorted array
-     * @return MinMaxResult object containing the results
-     */
-    public MinMaxResult findMinMaxElements() {
-        if (!validateArray() || array.length == 0) {
-            return new MinMaxResult(0, 0, 0, 0, false, 
-                "Not A Number");
-        }
-        
-        // Handle single element case
-        if (array.length == 1) {
-            return new MinMaxResult(array[0], array[0], array[0], array[0], true, "");
-        }
-        
-        int min = array[0];
-        int max = array[0];
-        int secondMin = MAX_VALUE;
-        int secondMax = MIN_VALUE;
-        
-        for (int i = 0; i < array.length; i++) {
-            // Update min and second min
-            if (array[i] < min) {
-                secondMin = min;
-                min = array[i];
-            } else if (array[i] < secondMin && array[i] != min) {
-                secondMin = array[i];
-            }
-            
-            if (array[i] > max) {
-                secondMax = max;
-                max = array[i];
-            } else if (array[i] > secondMax && array[i] != max) {
-                secondMax = array[i];
-            }
-        }
-        
-        boolean hasSecondMin = secondMin != MAX_VALUE;
-        boolean hasSecondMax = secondMax != MIN_VALUE;
-        
-        if (!hasSecondMin || !hasSecondMax) {
-            String msg = "Second min/max not found - array may have duplicates";
-            return new MinMaxResult(min, max, secondMin, secondMax, false, msg);
-        }
-        
-        return new MinMaxResult(min, max, secondMin, secondMax, true, "");
+
+    public BinarySearchResult process(int target)
+    {
+        return new BinarySearchResult(search(0, arr.length - 1, target));
     }
-    
-    /**
-     * Gets the array
-     * @return the array
-     */
-    public int[] getArray() {
-        return array;
-    }
-    
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Enter the size of the array: ");
-        int n = scanner.nextInt();
-        
+}
+
+/* Driver class */
+public class Assignment_2
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of elements: ");
+        int n = sc.nextInt();
+
+        if (n < 0)
+        {
+            System.out.println("Array size cannot be negative.");
+            sc.close();
+            return;
+        }
+
         int[] arr = new int[n];
-        
-        System.out.println("Enter the array elements:");
-        for (int i = 0; i < n; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
-            arr[i] = scanner.nextInt();
+        if (n > 0)
+        {
+            System.out.println("Enter the elements of the sorted array:");
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] = sc.nextInt();
+            }
+
+            if (!isSorted(arr))
+            {
+                System.out.println("Error: The input array is not sorted. Binary search requires a sorted array.");
+                sc.close();
+                return;
+            }
         }
-        
-        // Create ArrayAnalyzer object
-        Assignment_2 analyzer = new Assignment_2(arr);
-        
-        System.out.println("\nArray: " + java.util.Arrays.toString(analyzer.getArray()));
-        System.out.println("\nResults:");
-        
-        // Get results and display
-        MinMaxResult result = analyzer.findMinMaxElements();
-        System.out.println(result);
-        
-        scanner.close();
+
+        System.out.print("Enter the target element to search: ");
+        int target = sc.nextInt();
+
+        BinarySearchAlgo obj = new BinarySearchAlgo(arr);
+        System.out.println("Performing binary search...");
+        System.out.println(obj.process(target));
+        sc.close();
+    }
+
+    private static boolean isSorted(int[] arr)
+    {
+        for (int i = 0; i < arr.length - 1; i++)
+        {
+            if (arr[i] > arr[i + 1])
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }
