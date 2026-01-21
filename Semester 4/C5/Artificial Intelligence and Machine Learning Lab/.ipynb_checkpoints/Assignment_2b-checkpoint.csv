@@ -1,0 +1,11 @@
+Emp_ID,Name,Age,Department,Designation,Salary,Experience,City
+101,Amit,28,IT,Engineer,60000,5,Kolkata
+102,Riya,26,HR,HR Exec,45000,3,Delhi
+103,Rahul,30,IT,Developer,70000,6,Mumbai
+104,Sneha,27,Finance,Analyst,50000,4,Pune
+105,Karan,29,IT,Manager,80000,8,Bangalore
+106,Neha,25,HR,HR Exec,42000,2,Delhi
+107,Ankit,31,Finance,Accountant,48000,5,Chennai
+108,Pooja,28,IT,Developer,65000,6,Hyderabad
+109,Rohit,26,HR,HR Exec,46000,3,Pune
+110,Simran,27,IT,Engineer,72000,7,Bangalore
