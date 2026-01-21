@@ -87,9 +87,17 @@
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Assignment_1c_testbench_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_1d_testbench_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_1e_testbench_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_1f_testbench_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_1f_testbench_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_1f_testbench_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_2a_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_2a_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_2b_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_2b_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_2c_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_2c_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_2d_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_2d_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_2d_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_2d_testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -111,7 +119,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1768947345" xil_pn:in_ck="6236560982091829872" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1768947345">
+    <transform xil_pn:end_ts="1768954935" xil_pn:in_ck="1060609676578138384" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1768954935">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Assignment_1a.vhd"/>
@@ -126,12 +134,20 @@
       <outfile xil_pn:name="Assignment_1e_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_1f.vhd"/>
       <outfile xil_pn:name="Assignment_1f_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2a.vhd"/>
+      <outfile xil_pn:name="Assignment_2a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2b.vhd"/>
+      <outfile xil_pn:name="Assignment_2b_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2c.vhd"/>
+      <outfile xil_pn:name="Assignment_2c_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2d.vhd"/>
+      <outfile xil_pn:name="Assignment_2d_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1768947530" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4753630758771583249" xil_pn:start_ts="1768947530">
+    <transform xil_pn:end_ts="1768954937" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1152956488693354640" xil_pn:start_ts="1768954937">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1768947530" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5264824327301113399" xil_pn:start_ts="1768947530">
+    <transform xil_pn:end_ts="1768954937" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2947756794819592664" xil_pn:start_ts="1768954937">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -139,7 +155,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1768947347" xil_pn:in_ck="6236560982091829872" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1768947347">
+    <transform xil_pn:end_ts="1768954937" xil_pn:in_ck="1060609676578138384" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1768954937">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Assignment_1a.vhd"/>
@@ -154,21 +170,36 @@
       <outfile xil_pn:name="Assignment_1e_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_1f.vhd"/>
       <outfile xil_pn:name="Assignment_1f_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2a.vhd"/>
+      <outfile xil_pn:name="Assignment_2a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2b.vhd"/>
+      <outfile xil_pn:name="Assignment_2b_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2c.vhd"/>
+      <outfile xil_pn:name="Assignment_2c_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_2d.vhd"/>
+      <outfile xil_pn:name="Assignment_2d_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1768947531" xil_pn:in_ck="6236560982091829872" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8577753128240403634" xil_pn:start_ts="1768947530">
+    <transform xil_pn:end_ts="1768954938" xil_pn:in_ck="1060609676578138384" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7740960575908979920" xil_pn:start_ts="1768954937">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Assignment_1f_testbench_beh.prj"/>
-      <outfile xil_pn:name="Assignment_1f_testbench_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Assignment_2d_testbench_beh.prj"/>
+      <outfile xil_pn:name="Assignment_2d_testbench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1768947531" xil_pn:in_ck="8792935760227262805" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9116836410194293087" xil_pn:start_ts="1768947531">
+    <transform xil_pn:end_ts="1768954938" xil_pn:in_ck="7241814713758405119" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8937863476787605533" xil_pn:start_ts="1768954938">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Assignment_1f_testbench_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Assignment_2d_testbench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -200,9 +231,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1768947375" xil_pn:in_ck="5024432965517150534" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7605647407087798528" xil_pn:start_ts="1768947373">
+    <transform xil_pn:end_ts="1768953789" xil_pn:in_ck="2967059792592957533" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7605647407087798528" xil_pn:start_ts="1768953787">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="Assignment_1c_testbench.lso"/>
       <outfile xil_pn:name="Assignment_1c_testbench.prj"/>
@@ -222,7 +256,10 @@
     <transform xil_pn:end_ts="1768945641" xil_pn:in_ck="-2394494454590311664" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4369044588193009987" xil_pn:start_ts="1768945639">
       <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="Assignment_1a.bld"/>
       <outfile xil_pn:name="Assignment_1a.ngd"/>
       <outfile xil_pn:name="Assignment_1a_ngdbuild.xrpt"/>

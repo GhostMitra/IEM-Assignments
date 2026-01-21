@@ -1,22 +1,21 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1f_testbench_isim_beh.exe -prj /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1f_testbench_beh.prj work.Assignment_1f_testbench 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d_testbench_isim_beh.exe -prj /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d_testbench_beh.prj work.Assignment_2d_testbench 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 12
 Turning on mult-threading, number of parallel sub-compilation jobs: 24 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1f.vhd" into library work
-Parsing VHDL file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1f_testbench.vhd" into library work
+Parsing VHDL file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d.vhd" into library work
+Parsing VHDL file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d_testbench.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 93200 KB
-Fuse CPU Usage: 940 ms
+Fuse Memory Usage: 93356 KB
+Fuse CPU Usage: 910 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture dataflow of entity Assignment_1f [assignment_1f_default]
-Compiling architecture behavioral of entity assignment_1f_testbench
+Compiling architecture dataflow of entity Assignment_2d [assignment_2d_default]
+Compiling architecture behavioral of entity assignment_2d_testbench
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 VHDL Units
-Built simulation executable /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1f_testbench_isim_beh.exe
-Fuse Memory Usage: 1707556 KB
-Fuse CPU Usage: 950 ms
+Built simulation executable /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d_testbench_isim_beh.exe
+Fuse Memory Usage: 1707568 KB
+Fuse CPU Usage: 930 ms
 GCC CPU Usage: 140 ms

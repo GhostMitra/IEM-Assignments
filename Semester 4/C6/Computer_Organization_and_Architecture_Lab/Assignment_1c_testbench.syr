@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.01 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.01 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Reading design: Assignment_1c_testbench.prj
@@ -108,11 +108,9 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd" in Library work.
-Entity <Assignment_1c> compiled.
-Entity <Assignment_1c> (Architecture <Behavioral>) compiled.
-Entity <Assignment_1c> (Architecture <Dataflow>) compiled.
+Architecture behavioral of Entity assignment_1c is up to date.
+Architecture dataflow of Entity assignment_1c is up to date.
 Compiling vhdl file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" in Library work.
-Entity <Assignment_1c_testbench> compiled.
 ERROR:HDLParsers:1015 - "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" Line 52. Wait for statement unsupported.
 ERROR:HDLParsers:1015 - "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" Line 56. Wait for statement unsupported.
 --> 

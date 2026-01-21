@@ -5,10 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="1015" delta="new" >&quot;<arg fmt="%s" index="1">/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Wait for statement unsupported.
+<msg type="error" file="HDLParsers" num="1015" delta="old" >&quot;<arg fmt="%s" index="1">/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Wait for statement unsupported.
 </msg>
 
-<msg type="error" file="HDLParsers" num="1015" delta="new" >&quot;<arg fmt="%s" index="1">/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Wait for statement unsupported.
+<msg type="error" file="HDLParsers" num="1015" delta="old" >&quot;<arg fmt="%s" index="1">/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Wait for statement unsupported.
 </msg>
 
 </messages>
