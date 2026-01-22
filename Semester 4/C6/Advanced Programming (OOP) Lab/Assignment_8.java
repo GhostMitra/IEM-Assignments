@@ -1,11 +1,8 @@
 import java.util.Scanner;
 
 class EvenOddCheck {
-    void check(int n) {
-        if (n % 2 == 0)
-            System.out.println(n + " is Even");
-        else
-            System.out.println(n + " is Odd");
+    boolean isEven(int n) {
+        return n % 2 == 0;
     }
 }
 
@@ -17,7 +14,11 @@ public class Assignment_8 {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        obj.check(num);
+        if (obj.isEven(num))
+            System.out.println(num + " is Even");
+        else
+            System.out.println(num + " is Odd");
+
         sc.close();
     }
 }

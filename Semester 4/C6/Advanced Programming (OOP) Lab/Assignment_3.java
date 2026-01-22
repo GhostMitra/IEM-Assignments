@@ -1,13 +1,14 @@
 class PredefinedAdd {
-    void add() {
+    int add() {
         int a = 10, b = 20;
-        System.out.println("Sum = " + (a + b));
+        return a + b;
     }
 }
 
 public class Assignment_3 {
     public static void main(String[] args) {
         PredefinedAdd obj = new PredefinedAdd();
-        obj.add();
+        int result = obj.add();
+        System.out.println("Sum = " + result);
     }
 }

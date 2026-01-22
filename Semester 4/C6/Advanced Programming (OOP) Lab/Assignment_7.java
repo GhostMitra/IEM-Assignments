@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
 class BitwiseSwapper {
-    void swap(int a, int b) {
-        System.out.println("Before Swap: a = " + a + ", b = " + b);
+    int[] swap(int a, int b) {
         a = a ^ b;
         b = a ^ b;
         a = a ^ b;
-        System.out.println("After Swap : a = " + a + ", b = " + b);
+        return new int[]{a, b};
     }
 }
 
@@ -21,7 +20,11 @@ public class Assignment_7 {
         System.out.print("Enter second number: ");
         int y = sc.nextInt();
 
-        obj.swap(x, y);
+        System.out.println("Before Swap: a = " + x + ", b = " + y);
+
+        int[] result = obj.swap(x, y);
+
+        System.out.println("After Swap : a = " + result[0] + ", b = " + result[1]);
         sc.close();
     }
 }

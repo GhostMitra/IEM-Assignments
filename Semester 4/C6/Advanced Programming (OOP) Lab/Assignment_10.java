@@ -3,8 +3,8 @@ public class Assignment_10
 {
     Assignment_10()
     {
-        this(5);
         System.out.println("Default Constructor Called");
+        this(5);
     }
     Assignment_10(int a)
     {
