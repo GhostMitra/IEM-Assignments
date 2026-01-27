@@ -1,54 +1,58 @@
 import java.util.Scanner;
 
 /* Result class */
-class BinarySearchResult
+class TwoSumResult
 {
-    private int index;
+    private int i, j;
+    private boolean found;
 
-    public BinarySearchResult(int index)
+    public TwoSumResult(int i, int j, boolean found)
     {
-        this.index = index;
+        this.i = i;
+        this.j = j;
+        this.found = found;
     }
 
     public String toString()
     {
-        return index != -1 ?
-            "Element found at index: " + index :
-            "Element not found";
+        return found ?
+            "Indices: " + i + ", " + j :
+            "No valid pair found";
     }
 }
 
 /* Logic class */
-class BinarySearchAlgo
+class TwoSumFinder
 {
     private int[] arr;
+    private int target;
 
-    public BinarySearchAlgo(int[] arr)
+    public TwoSumFinder(int[] arr, int target)
     {
         this.arr = arr;
+        this.target = target;
     }
 
-    private int search(int low, int high, int target)
+    public TwoSumResult find()
     {
-        if (low > high)
+        int l = 0, r = arr.length - 1;
+        while (l < r)
         {
-            return -1;
+            int sum = arr[l] + arr[r];
+            if (sum == target)
+            {
+                return new TwoSumResult(l, r, true);
+            }
+            if (sum < target)
+            {
+                l++;
+            }
+            else
+            {
+                r--;
+            }
         }
-        int mid = low + (high - low) / 2;
-        if (arr[mid] == target)
-        {
-            return mid;
-        }
-        if (arr[mid] > target)
-        {
-            return search(low, mid - 1, target);
-        }
-        return search(mid + 1, high, target);
-    }
-
-    public BinarySearchResult process(int target)
-    {
-        return new BinarySearchResult(search(0, arr.length - 1, target));
+        return new TwoSumResult(-1, -1, false);
     }
 }
 
@@ -61,37 +65,34 @@ public class Assignment_2
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
 
-        if (n < 0)
+        if (n < 2)
         {
-            System.out.println("Array size cannot be negative.");
+            System.out.println("At least two elements are required for the Two Sum problem.");
             sc.close();
             return;
         }
 
         int[] arr = new int[n];
-        if (n > 0)
+        System.out.println("Enter the elements of the sorted array:");
+        for (int i = 0; i < n; i++)
         {
-            System.out.println("Enter the elements of the sorted array:");
-            for (int i = 0; i < n; i++)
-            {
-                System.out.print("Enter element number " + (i + 1) + ": ");
-                arr[i] = sc.nextInt();
-            }
-
-            if (!isSorted(arr))
-            {
-                System.out.println("Error: The input array is not sorted. Binary search requires a sorted array.");
-                sc.close();
-                return;
-            }
+            System.out.print("Enter element number " + (i + 1) + ": ");
+            arr[i] = sc.nextInt();
         }
 
-        System.out.print("Enter the target element to search: ");
+        if (!isSorted(arr))
+        {
+            System.out.println("Error: The input array is not sorted. The two-pointer approach requires a sorted array.");
+            sc.close();
+            return;
+        }
+
+        System.out.print("Enter the target sum: ");
         int target = sc.nextInt();
 
-        BinarySearchAlgo obj = new BinarySearchAlgo(arr);
-        System.out.println("Performing binary search...");
-        System.out.println(obj.process(target));
+        TwoSumFinder obj = new TwoSumFinder(arr, target);
+        System.out.println("Searching for a pair with the sum " + target + "...");
+        System.out.println(obj.find());
         sc.close();
     }
 
