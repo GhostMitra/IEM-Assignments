@@ -1,6 +1,5 @@
 class Shape {
 
-    // 1️⃣ Constructor Overloading (Parent class)
     Shape() {
         System.out.println("Shape default constructor");
     }
@@ -9,7 +8,6 @@ class Shape {
         System.out.println("Shape constructor with name: " + name);
     }
 
-    // Method overloading
     void draw() {
         System.out.println("Drawing a shape");
     }
@@ -21,14 +19,13 @@ class Shape {
 
 class Circle extends Shape {
 
-    // 2️⃣ Constructor Overloading (Child class)
     Circle() {
-        super();   // calls Shape()
+        super();   
         System.out.println("Circle default constructor");
     }
 
     Circle(String name) {
-        super(name);   // calls Shape(String)
+        super(name);   
         System.out.println("Circle constructor with name: " + name);
     }
 
@@ -37,13 +34,11 @@ class Circle extends Shape {
         System.out.println("Circle constructor with radius: " + radius);
     }
 
-    // Method overriding (runtime polymorphism)
     @Override
     void draw() {
         System.out.println("Drawing a circle");
     }
 
-    // Method overloading
     void draw(int radius) {
         System.out.println("Drawing a circle with radius " + radius);
     }
@@ -52,21 +47,18 @@ class Circle extends Shape {
 public class Assignment_10 {
     public static void main(String[] args) {
 
-        // Constructor overloading
         Circle c1 = new Circle();
         Circle c2 = new Circle("MyCircle");
         Circle c3 = new Circle("BigCircle", 10);
 
         System.out.println();
 
-        // Runtime polymorphism
         Shape s = new Circle();
-        s.draw();           // Circle's draw()
-        s.draw("blue");     // Shape's draw(String)
+        s.draw();          
+        s.draw("blue");   
 
         System.out.println();
 
-        // Compile-time polymorphism
         c3.draw();
         c3.draw(15);
         c3.draw("red");
