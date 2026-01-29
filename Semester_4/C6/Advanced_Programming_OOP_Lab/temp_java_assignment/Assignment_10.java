@@ -49,7 +49,7 @@ class Circle extends Shape {
     }
 }
 
-public class PolymorphismDemo {
+public class Assignment_10 {
     public static void main(String[] args) {
 
         // Constructor overloading
