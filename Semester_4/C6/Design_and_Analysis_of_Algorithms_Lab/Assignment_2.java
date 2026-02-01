@@ -1,145 +1,76 @@
 import java.util.Scanner;
-import static java.lang.Integer.MAX_VALUE;
-import static java.lang.Integer.MIN_VALUE;
 
+/* Result class */
+class MagicResult {
+    private boolean magic;
 
-class MinMaxResult {
-    private int min;
-    private int max;
-    private int secondMin;
-    private int secondMax;
-    private boolean isValid;
-    private String message;
-    
-    public MinMaxResult(int min, int max, int secondMin, int secondMax, boolean isValid, String message) {
-        this.min = min;
-        this.max = max;
-        this.secondMin = secondMin;
-        this.secondMax = secondMax;
-        this.isValid = isValid;
-        this.message = message;
+    public MagicResult(boolean magic) {
+        this.magic = magic;
     }
-    
-    public int getMin() { return min; }
-    public int getMax() { return max; }
-    public int getSecondMin() { return secondMin; }
-    public int getSecondMax() { return secondMax; }
-    public boolean isValid() { return isValid; }
-    public String getMessage() { return message; }
-    
-    @Override
+
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        if (!isValid) {
-            sb.append(message);
-        } else {
-            sb.append("Minimum: ").append(min).append("\n");
-            sb.append("Maximum: ").append(max).append("\n");
-            sb.append("Second Minimum: ").append(secondMin).append("\n");
-            sb.append("Second Maximum: ").append(secondMax);
-        }
-        return sb.toString();
+        return magic ? "Magic Matrix" : "Not a Magic Matrix";
     }
 }
 
-/**
- * ArrayAnalyzer class to analyze unsorted arrays
- */
-public class Assignment_2 {
-    private int[] array;
-    
-    public Assignment_2(int[] array) {                                
-        this.array = array;
+/* Logic class */
+class MagicMatrix {
+    private int[][] mat;
+    private int n;
+
+    public MagicMatrix(int[][] mat, int n) {
+        this.mat = mat;
+        this.n = n;
     }
-    
-    /**
-     * Validates if array is not null
-     * @return true if valid, false otherwise
-     */
-    private boolean validateArray() {
-        return array != null;
-    }
-    
-    /**
-     * Finds min, max, second min, and second max from an unsorted array
-     * @return MinMaxResult object containing the results
-     */
-    public MinMaxResult findMinMaxElements() {
-        if (!validateArray() || array.length == 0) {
-            return new MinMaxResult(0, 0, 0, 0, false, 
-                "Not A Number");
+
+    public MagicResult check() {
+        int sum = 0;
+        for (int j = 0; j < n; j++)
+            sum += mat[0][j];
+
+        for (int i = 1; i < n; i++) {
+            int rowSum = 0;
+            for (int j = 0; j < n; j++)
+                rowSum += mat[i][j];
+            if (rowSum != sum)
+                return new MagicResult(false);
         }
-        
-        // Handle single element case
-        if (array.length == 1) {
-            return new MinMaxResult(array[0], array[0], array[0], array[0], true, "");
+
+        for (int j = 0; j < n; j++) {
+            int colSum = 0;
+            for (int i = 0; i < n; i++)
+                colSum += mat[i][j];
+            if (colSum != sum)
+                return new MagicResult(false);
         }
-        
-        int min = array[0];
-        int max = array[0];
-        int secondMin = MAX_VALUE;
-        int secondMax = MIN_VALUE;
-        
-        for (int i = 0; i < array.length; i++) {
-            // Update min and second min
-            if (array[i] < min) {
-                secondMin = min;
-                min = array[i];
-            } else if (array[i] < secondMin && array[i] != min) {
-                secondMin = array[i];
-            }
-            
-            if (array[i] > max) {
-                secondMax = max;
-                max = array[i];
-            } else if (array[i] > secondMax && array[i] != max) {
-                secondMax = array[i];
-            }
-        }
-        
-        boolean hasSecondMin = secondMin != MAX_VALUE;
-        boolean hasSecondMax = secondMax != MIN_VALUE;
-        
-        if (!hasSecondMin || !hasSecondMax) {
-            String msg = "Second min/max not found - array may have duplicates";
-            return new MinMaxResult(min, max, secondMin, secondMax, false, msg);
-        }
-        
-        return new MinMaxResult(min, max, secondMin, secondMax, true, "");
-    }
-    
-    /**
-     * Gets the array
-     * @return the array
-     */
-    public int[] getArray() {
-        return array;
-    }
-    
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Enter the size of the array: ");
-        int n = scanner.nextInt();
-        
-        int[] arr = new int[n];
-        
-        System.out.println("Enter the array elements:");
+
+        int d1 = 0, d2 = 0;
         for (int i = 0; i < n; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
-            arr[i] = scanner.nextInt();
+            d1 += mat[i][i];
+            d2 += mat[i][n - i - 1];
         }
-        
-        // Create ArrayAnalyzer object
-        Assignment_2 analyzer = new Assignment_2(arr);
-        
-        System.out.println("\nArray: " + java.util.Arrays.toString(analyzer.getArray()));
-        System.out.println("\nResults:");
-        
-        // Get results and display
-        MinMaxResult result = analyzer.findMinMaxElements();
-        System.out.println(result);
-        
-        scanner.close();
+
+        return new MagicResult(d1 == sum && d2 == sum);
+    }
+}
+
+/* Driver class */
+public class Assignment_2{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter order of square matrix: ");
+        int n = sc.nextInt();
+
+        int[][] mat = new int[n][n];
+        System.out.println("Enter matrix elements:");
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++)
+                mat[i][j] = sc.nextInt();
+
+        MagicMatrix obj = new MagicMatrix(mat, n);
+        System.out.println(obj.check());
+
+        sc.close();
     }
 }

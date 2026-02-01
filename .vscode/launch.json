@@ -3,87 +3,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Assignment_5",
-            "request": "launch",
-            "mainClass": "Assignment_5",
-            "projectName": "IEM-Assignments_c3c95fe8"
-        },
-        {
-            "type": "java",
-            "name": "Assignment_10",
-            "request": "launch",
-            "mainClass": "Assignment_10",
-            "projectName": "IEM-Assignments_c3c95fe8"
-        },
-        {
-            "type": "java",
-            "name": "Assignment_4",
-            "request": "launch",
-            "mainClass": "Assignment_4",
-            "projectName": "IEM-Assignments_d3a3e32d"
-        },
-        {
-            "type": "java",
             "name": "Assignment_3",
             "request": "launch",
             "mainClass": "Assignment_3",
             "projectName": "IEM-Assignments_d3a3e32d"
-        },
-        {
-            "type": "java",
-            "name": "Assignment_2",
-            "request": "launch",
-            "mainClass": "Assignment_2",
-            "projectName": "IEM-Assignments_d3a3e32d"
-        },
-        {
-            "type": "java",
-            "name": "Assignment_1",
-            "request": "launch",
-            "mainClass": "Assignment_1",
-            "projectName": "IEM-Assignments_d3a3e32d"
-        },
-        {
-            "type": "java",
-            "name": "Assignment_0",
-            "request": "launch",
-            "mainClass": "Assignment_0",
-            "projectName": "IEM-Assignments_d3a3e32d"
-        },
-        {
-            "type": "java",
-            "name": "Assignment_2",
-            "request": "launch",
-            "mainClass": "Assignment_2",
-            "projectName": "IEM-Assignments_c3c95fe8"
-        },
-        {
-            "type": "java",
-            "name": "Assingment_2",
-            "request": "launch",
-            "mainClass": "Assingment_2",
-            "projectName": "IEM-Assignments_c3c95fe8"
-        },
-        {
-            "type": "java",
-            "name": "largestPalindromicSubstring",
-            "request": "launch",
-            "mainClass": "largestPalindromicSubstring",
-            "projectName": "IEM-Assignments_c3c95fe8"
-        },
-        {
-            "type": "java",
-            "name": "palindromeNumber",
-            "request": "launch",
-            "mainClass": "palindromeNumber",
-            "projectName": "IEM-Assignments_c3c95fe8"
-        },
-        {
-            "type": "java",
-            "name": "extractDigitsOfANumber",
-            "request": "launch",
-            "mainClass": "extractDigitsOfANumber",
-            "projectName": "IEM-Assignments_c3c95fe8"
         },
         {
             "name": "Build and Debug Active File (Linux)",
