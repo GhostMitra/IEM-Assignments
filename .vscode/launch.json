@@ -2,13 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "Assignment_3",
-            "request": "launch",
-            "mainClass": "Assignment_3",
-            "projectName": "IEM-Assignments_d3a3e32d"
-        },
-        {
             "name": "Build and Debug Active File (Linux)",
             "type": "cppdbg",
             "request": "launch",

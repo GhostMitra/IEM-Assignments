@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Assignment_1b - Behavioral (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1b.vhd)</SelectedItem>
+         <SelectedItem>Assignment_1c_testbench - Behavioral (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000199000000020000000000000000000000000200000064ffffffff000000810000000300000002000001990000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000225000000020000000000000000000000000200000064ffffffff000000810000000300000002000002250000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Assignment_1b - Behavioral (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1b.vhd)</CurrentItem>
+      <CurrentItem>Assignment_1c_testbench - Behavioral (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -42,7 +42,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000039c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000005100000001000000000000002900000001000000000000008400000001000000000000029e0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000038c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000005100000001000000000000002900000001000000000000008400000001000000000000028e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Assignment_1a.vhd</CurrentItem>
    </ItemView>
@@ -63,7 +63,6 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
@@ -120,13 +119,13 @@
          <ClosedNode>/testbench - behavior |home|debarghaya|Documents|GitHub|IEM-Assignments|Semester 4|C6|Computer_Organization_and_Architecture_Lab|Assignment_2b_testbench.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Assignment_2d - Dataflow (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d.vhd)</SelectedItem>
+         <SelectedItem>multiplier8bit - Dataflow (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_3c.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >16</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >28</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000217000000020000000000000000000000000200000064ffffffff000000810000000300000002000002170000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Assignment_2d - Dataflow (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_2d.vhd)</CurrentItem>
+      <CurrentItem>multiplier8bit - Dataflow (/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_3c.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -147,12 +146,12 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>
