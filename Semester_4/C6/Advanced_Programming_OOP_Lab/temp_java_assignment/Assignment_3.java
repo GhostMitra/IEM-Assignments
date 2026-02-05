@@ -1,3 +1,4 @@
+package temp_java_assignment;
 class PredefinedAdd {
     int add() {
         int a = 10, b = 20;
