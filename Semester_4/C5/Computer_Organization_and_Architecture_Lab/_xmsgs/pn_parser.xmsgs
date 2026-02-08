@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1a.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1d.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1e.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_1f.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_2a.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_2b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_2c.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_2c_testbench.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_2d.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_3a.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_3b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_3c.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_3d.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/admin/workspaces/IEM-Assignments/Semester_4/C5/Computer_Organization_and_Architecture_Lab/Assignment_3e.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

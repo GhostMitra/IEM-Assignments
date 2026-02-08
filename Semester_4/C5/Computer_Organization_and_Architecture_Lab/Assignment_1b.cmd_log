@@ -1,0 +1,3 @@
+vhdtdtfi -lib work Assignment_1b.vhd -prj Computer_Organization_and_Architecture_Lab -o Assignment_1b.spl -module Assignment_1b -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Assignment_1b.spl {/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1b.sym} 
+vhdtdtfi -prj Computer_Organization_and_Architecture_Lab -o "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1b.vhi" -module Assignment_1b -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Assignment_1b.vhd 

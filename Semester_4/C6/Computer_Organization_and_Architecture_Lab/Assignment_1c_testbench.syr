@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.02 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.02 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Reading design: Assignment_1c_testbench.prj
@@ -107,18 +107,23 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/Assignment_1c_testbench is now defined in a different file.  It was defined in "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd", and is now defined in "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd".
+WARNING:HDLParsers:3607 - Unit work/Assignment_1c_testbench/Behavioral is now defined in a different file.  It was defined in "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd", and is now defined in "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd".
+WARNING:HDLParsers:3607 - Unit work/Assignment_1c is now defined in a different file.  It was defined in "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd", and is now defined in "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd".
+WARNING:HDLParsers:3607 - Unit work/Assignment_1c/Behavioral is now defined in a different file.  It was defined in "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd", and is now defined in "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd".
+WARNING:HDLParsers:3607 - Unit work/Assignment_1c/Dataflow is now defined in a different file.  It was defined in "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd", and is now defined in "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd".
+Compiling vhdl file "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c.vhd" in Library work.
 Architecture behavioral of Entity assignment_1c is up to date.
 Architecture dataflow of Entity assignment_1c is up to date.
-Compiling vhdl file "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" in Library work.
-ERROR:HDLParsers:1015 - "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" Line 52. Wait for statement unsupported.
-ERROR:HDLParsers:1015 - "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" Line 56. Wait for statement unsupported.
+Compiling vhdl file "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" in Library work.
+ERROR:HDLParsers:1015 - "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" Line 52. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1c_testbench.vhd" Line 56. Wait for statement unsupported.
 --> 
 
 
-Total memory usage is 485072 kilobytes
+Total memory usage is 486152 kilobytes
 
 Number of errors   :    2 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
