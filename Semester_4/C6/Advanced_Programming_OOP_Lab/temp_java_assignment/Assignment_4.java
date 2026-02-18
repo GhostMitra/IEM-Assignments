@@ -1,3 +1,4 @@
+package temp_java_assignment;
 class ClassNameLogic {
     String show() {
         return "Class Name: " + this.getClass().getName();

@@ -1,0 +1,5 @@
+set -tmpdir "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/xst/projnav.tmp"
+set -xsthdpdir "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/xst"
+elaborate
+-ifn Assignment_1b.prj
+-ifmt mixed

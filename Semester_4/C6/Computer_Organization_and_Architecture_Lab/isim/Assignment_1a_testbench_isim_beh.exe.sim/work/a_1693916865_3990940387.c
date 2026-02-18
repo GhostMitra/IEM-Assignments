@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/debarghaya/Documents/GitHub/IEM-Assignments/Semester 4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.vhd";
+static const char *ng0 = "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_1a.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_3488768496604610246_503743352(char *, unsigned char , unsigned char );

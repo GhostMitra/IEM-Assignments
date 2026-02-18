@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_3d_testbench_isim_beh.exe" -prj "/home/admin/workspaces/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_3d_testbench_beh.prj" "work.Assignment_3d_testbench" 

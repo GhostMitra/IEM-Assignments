@@ -1,3 +1,4 @@
+package temp_java_assignment;
 class Shape {
 
     Shape() {

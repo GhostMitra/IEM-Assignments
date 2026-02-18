@@ -1,3 +1,4 @@
+package temp_java_assignment;
 import java.util.Scanner;
 
 class UserAdd {
