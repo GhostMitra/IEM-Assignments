@@ -2,6 +2,153 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Assignment_2j",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2j",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2i",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2i",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2h",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2h",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2g",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2g",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2f",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2f",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2e",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2e",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2d",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2d",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2c",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2c",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2b",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2b",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_2a",
+            "request": "launch",
+            "mainClass": "Assignment_2.Assignment_2a",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1j",
+            "request": "launch",
+            "mainClass": "Assignment_1j",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1i",
+            "request": "launch",
+            "mainClass": "Assignment_1i",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1h",
+            "request": "launch",
+            "mainClass": "Assignment_1h",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1g",
+            "request": "launch",
+            "mainClass": "Assignment_1g",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1f",
+            "request": "launch",
+            "mainClass": "Assignment_1f",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1e",
+            "request": "launch",
+            "mainClass": "Assignment_1e",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1d",
+            "request": "launch",
+            "mainClass": "Assignment_1d",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1c",
+            "request": "launch",
+            "mainClass": "Assignment_1c",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1b",
+            "request": "launch",
+            "mainClass": "Assignment_1b",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1b",
+            "request": "launch",
+            "mainClass": "Assignment_1.Assignment_1b",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_1a",
+            "request": "launch",
+            "mainClass": "Assignment_1.Assignment_1a",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
             "name": "Build and Debug Active File (Linux)",
             "type": "cppdbg",
             "request": "launch",
