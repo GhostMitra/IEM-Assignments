@@ -112,7 +112,27 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_3d_testbench_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_3d_testbench_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_3d_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_3e_testbench_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_3e_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_4a_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_4a_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_4a_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_4b_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_4b_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_4b_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_4b_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_5a_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_5a_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_5a_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_5a_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_5b_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_5b_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_5b_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_5b_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_5c_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_5c_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_5c_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_5c_testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -135,7 +155,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1770129955" xil_pn:in_ck="-544618788836475241" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1770129955">
+    <transform xil_pn:end_ts="1772003736" xil_pn:in_ck="5220435253025826530" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1772003736">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Assignment_1a.vhd"/>
@@ -168,25 +188,32 @@
       <outfile xil_pn:name="Assignment_3d_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_3e.vhd"/>
       <outfile xil_pn:name="Assignment_3e_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_4a.vhd"/>
+      <outfile xil_pn:name="Assignment_4a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_4b.vhd"/>
+      <outfile xil_pn:name="Assignment_4b_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_5a.vhd"/>
+      <outfile xil_pn:name="Assignment_5a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_5b.vhd"/>
+      <outfile xil_pn:name="Assignment_5b_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_5c.vhd"/>
+      <outfile xil_pn:name="Assignment_5c_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1770538460" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9016046682164118108" xil_pn:start_ts="1770538460">
+    <transform xil_pn:end_ts="1772003647" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1592635635317467184" xil_pn:start_ts="1772003647">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1770538460" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3849954292685867940" xil_pn:start_ts="1770538460">
+    <transform xil_pn:end_ts="1772003647" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3508053241271146872" xil_pn:start_ts="1772003647">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1768945852" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="894049976068358262" xil_pn:start_ts="1768945852">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1770129960" xil_pn:in_ck="-544618788836475241" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1770129960">
+    <transform xil_pn:end_ts="1772003737" xil_pn:in_ck="5220435253025826530" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1772003737">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Assignment_1a.vhd"/>
       <outfile xil_pn:name="Assignment_1a_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_1b.vhd"/>
@@ -217,29 +244,38 @@
       <outfile xil_pn:name="Assignment_3d_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_3e.vhd"/>
       <outfile xil_pn:name="Assignment_3e_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_4a.vhd"/>
+      <outfile xil_pn:name="Assignment_4a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_4b.vhd"/>
+      <outfile xil_pn:name="Assignment_4b_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_5a.vhd"/>
+      <outfile xil_pn:name="Assignment_5a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_5b.vhd"/>
+      <outfile xil_pn:name="Assignment_5b_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_5c.vhd"/>
+      <outfile xil_pn:name="Assignment_5c_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1770538461" xil_pn:in_ck="-544618788836475241" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3014821351500753083" xil_pn:start_ts="1770538460">
+    <transform xil_pn:end_ts="1772003738" xil_pn:in_ck="5220435253025826530" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-800959609926897264" xil_pn:start_ts="1772003737">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Assignment_3d_testbench_beh.prj"/>
-      <outfile xil_pn:name="Assignment_3d_testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="Assignment_5a_testbench_beh.prj"/>
+      <outfile xil_pn:name="Assignment_5a_testbench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1770538461" xil_pn:in_ck="3272519598641592924" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6874809366910929134" xil_pn:start_ts="1770538461">
+    <transform xil_pn:end_ts="1772003738" xil_pn:in_ck="-8042979618541052377" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2922444233132506915" xil_pn:start_ts="1772003738">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Assignment_3d_testbench_isim_beh.wdb"/>
+      <outfile xil_pn:name="Assignment_5a_testbench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -274,17 +310,12 @@
     <transform xil_pn:end_ts="1770130037" xil_pn:in_ck="5875692039349259370" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7605647407087798528" xil_pn:start_ts="1770130035">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name=".lso"/>
-      <outfile xil_pn:name="Assignment_1c_testbench.lso"/>
-      <outfile xil_pn:name="Assignment_1c_testbench.prj"/>
-      <outfile xil_pn:name="Assignment_1c_testbench.syr"/>
-      <outfile xil_pn:name="Assignment_1c_testbench.xst"/>
-      <outfile xil_pn:name="Assignment_1c_testbench_stx_beh.prj"/>
-      <outfile xil_pn:name="Assignment_1c_testbench_vhdl.prj"/>
-      <outfile xil_pn:name="Assignment_1c_testbench_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1768947375" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5143641814329771965" xil_pn:start_ts="1768947375">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -295,6 +326,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="Assignment_1a.bld"/>
       <outfile xil_pn:name="Assignment_1a.ngd"/>
