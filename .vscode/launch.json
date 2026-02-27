@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment_11",
+            "request": "launch",
+            "mainClass": "temp_java_assignment.Assignment_11",
+            "projectName": "IEM-Assignments_c3c95fe8"
+        },
+        {
+            "type": "java",
             "name": "Assignment_2j",
             "request": "launch",
             "mainClass": "Assignment_2.Assignment_2j",
