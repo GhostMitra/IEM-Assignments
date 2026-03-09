@@ -3,6 +3,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment_4",
+            "request": "launch",
+            "mainClass": "Assignment_4",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5l",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5l",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5k",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5k",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5j",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5j",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5i",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5i",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5h",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5h",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5g",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5g",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5f",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5f",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5e",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5e",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5d",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5d",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5c",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5c",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5b",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5b",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_5a",
+            "request": "launch",
+            "mainClass": "Assignment_5.Assignment_5a",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
             "name": "Assignment_11",
             "request": "launch",
             "mainClass": "temp_java_assignment.Assignment_11",

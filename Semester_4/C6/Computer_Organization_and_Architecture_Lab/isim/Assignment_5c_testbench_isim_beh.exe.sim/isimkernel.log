@@ -2,12 +2,12 @@ Command line:
    Assignment_5c_testbench_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  33373
+     -socket  48577
 
-Wed Feb 25 12:23:47 2026
+Thu Mar  5 19:14:23 2026
 
 
- Elaboration Time: 0.02 sec
+ Elaboration Time: 0 sec
 
  Current Memory Usage: 194.404 Meg
 
@@ -21,9 +21,9 @@ Wed Feb 25 12:23:47 2026
  Total Scalar Nets and Variables : 502
 Total Line Count : 5
 
- Total Simulation Time: 0.02 sec
+ Total Simulation Time: 0 sec
 
  Current Memory Usage: 269.906 Meg
 
-Wed Feb 25 12:50:42 2026
+Thu Mar  5 19:14:47 2026
 

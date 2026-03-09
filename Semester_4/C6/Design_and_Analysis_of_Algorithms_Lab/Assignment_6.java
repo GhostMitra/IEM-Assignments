@@ -127,12 +127,12 @@ public class Assignment_6 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of jobs: ");
+        out.print("Enter number of jobs: ");
         int n = sc.nextInt();
 
         Job[] jobs = new Job[n];
 
-        System.out.println("Enter Job ID, Deadline and Profit:");
+        out.println("Enter Job ID, Deadline and Profit:");
         for (int i = 0; i < n; i++) 
         {
             long id = sc.nextLong();
@@ -142,7 +142,7 @@ public class Assignment_6 {
         }
 
         JobSequencer obj = new JobSequencer(jobs);
-        System.out.println(obj.process());
+        out.println(obj.process());
 
         sc.close();
     }
