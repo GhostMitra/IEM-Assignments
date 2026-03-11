@@ -12,6 +12,7 @@ entity Assignment_5a is
     );
 end Assignment_5a;
 
+
 architecture Behavioral of Assignment_5a is
 begin
 
