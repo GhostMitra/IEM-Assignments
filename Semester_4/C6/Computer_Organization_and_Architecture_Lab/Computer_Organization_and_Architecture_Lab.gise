@@ -133,10 +133,19 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_6a_testbench_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_6b_testbench_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_6b_testbench_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_6c_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_6c_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_6c_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_6c_testbench_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_6c_testbench_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_6c_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_8a_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_8a_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_8a_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_8b_full_adder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_8b_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_8b_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Assignment_8b_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Assignment_8b_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Assignment_8b_testbench_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -148,6 +157,7 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier8bit_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_Assignment_8a_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -159,13 +169,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1773162299" xil_pn:in_ck="1342042293583147967" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1773162299">
+    <transform xil_pn:end_ts="1773212513" xil_pn:in_ck="-444017718737832861" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1773212513">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Assignment_1a.vhd"/>
       <outfile xil_pn:name="Assignment_1a_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_1b.vhd"/>
@@ -212,12 +218,16 @@
       <outfile xil_pn:name="Assignment_6b_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_6c.vhd"/>
       <outfile xil_pn:name="Assignment_6c_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_8a.vhd"/>
+      <outfile xil_pn:name="Assignment_8a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_8b.vhd"/>
+      <outfile xil_pn:name="Assignment_8b_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1773163161" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2905856828797688525" xil_pn:start_ts="1773163161">
+    <transform xil_pn:end_ts="1773212457" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6392221272274921785" xil_pn:start_ts="1773212457">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1773163161" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5057403076081264149" xil_pn:start_ts="1773163161">
+    <transform xil_pn:end_ts="1773212457" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3084154488971676801" xil_pn:start_ts="1773212457">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -225,14 +235,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1773162302" xil_pn:in_ck="1342042293583147967" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1773162302">
+    <transform xil_pn:end_ts="1773212518" xil_pn:in_ck="-444017718737832861" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1773212518">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Assignment_1a.vhd"/>
       <outfile xil_pn:name="Assignment_1a_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_1b.vhd"/>
@@ -279,31 +284,32 @@
       <outfile xil_pn:name="Assignment_6b_testbench.vhd"/>
       <outfile xil_pn:name="Assignment_6c.vhd"/>
       <outfile xil_pn:name="Assignment_6c_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_8a.vhd"/>
+      <outfile xil_pn:name="Assignment_8a_testbench.vhd"/>
+      <outfile xil_pn:name="Assignment_8b.vhd"/>
+      <outfile xil_pn:name="Assignment_8b_testbench.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1773163163" xil_pn:in_ck="1342042293583147967" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3530894176143945162" xil_pn:start_ts="1773163161">
+    <transform xil_pn:end_ts="1773212521" xil_pn:in_ck="-444017718737832861" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2834982160331094997" xil_pn:start_ts="1773212518">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Assignment_6c_testbench_beh.prj"/>
-      <outfile xil_pn:name="Assignment_6c_testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="Assignment_8b_testbench_beh.prj"/>
+      <outfile xil_pn:name="Assignment_8b_testbench_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1773163163" xil_pn:in_ck="3717014379820831454" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6396389718806807971" xil_pn:start_ts="1773163163">
+    <transform xil_pn:end_ts="1773212521" xil_pn:in_ck="1768146508501620498" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3463422127712366616" xil_pn:start_ts="1773212521">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Assignment_6c_testbench_isim_beh.wdb"/>
+      <outfile xil_pn:name="Assignment_8b_testbench_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

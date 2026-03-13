@@ -3,6 +3,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment_6j",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6j",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6i",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6i",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6h",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6h",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6g",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6g",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6f",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6f",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6e",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6e",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6d",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6d",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6c",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6c",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6b",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6b",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_6a",
+            "request": "launch",
+            "mainClass": "Assignment_6.Assignment_6a",
+            "projectName": "IEM-Assignments_d3a3e32d"
+        },
+        {
+            "type": "java",
             "name": "Assignment_4",
             "request": "launch",
             "mainClass": "Assignment_4",

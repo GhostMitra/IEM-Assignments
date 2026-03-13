@@ -1,0 +1,10 @@
+Command line:
+   Assignment_8a_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  33885
+
+Wed Mar 11 12:23:08 2026
+
+
+ Elaboration Time: 0.02 sec

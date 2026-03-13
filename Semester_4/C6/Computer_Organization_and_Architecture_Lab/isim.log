@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_6c_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_6c_testbench_isim_beh.wdb 
+Running: /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_8b_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/debarghaya/Documents/GitHub/IEM-Assignments/Semester_4/C6/Computer_Organization_and_Architecture_Lab/Assignment_8b_testbench_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
